@@ -1,0 +1,2358 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnabrir" xml:space="preserve">
+    <value>Abierto</value>
+  </data>
+  <data name="btnabrirselecionado" xml:space="preserve">
+    <value>Abrir seleccionado</value>
+  </data>
+  <data name="btnadddestinatario" xml:space="preserve">
+    <value>Agregar recipientes</value>
+  </data>
+  <data name="btnadicionar" xml:space="preserve">
+    <value>Añadir</value>
+  </data>
+  <data name="btnaltera" xml:space="preserve">
+    <value>Cambio</value>
+  </data>
+  <data name="btnatualizar" xml:space="preserve">
+    <value>Actualizar</value>
+  </data>
+  <data name="btnbaixarpadselecionado" xml:space="preserve">
+    <value>Descargar PED seleccionados</value>
+  </data>
+  <data name="btnCancelar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="btncolaboradores" xml:space="preserve">
+    <value>Colaboradores</value>
+  </data>
+  <data name="btnconfirmar" xml:space="preserve">
+    <value>Confirmar</value>
+  </data>
+  <data name="btnconfirmasenha" xml:space="preserve">
+    <value>Sí, cambie mi contraseña, ¡por favor!</value>
+  </data>
+  <data name="btncopiabiblioteca" xml:space="preserve">
+    <value>Copiar de la biblioteca</value>
+  </data>
+  <data name="btncriarusuariostodos" xml:space="preserve">
+    <value>Crear usuarios por lotes</value>
+  </data>
+  <data name="btncursos" xml:space="preserve">
+    <value>Cursos</value>
+  </data>
+  <data name="btndeletar" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="btneditar" xml:space="preserve">
+    <value>Para editar</value>
+  </data>
+  <data name="btnEncaminhar" xml:space="preserve">
+    <value>Adelante</value>
+  </data>
+  <data name="btnenviarpademail" xml:space="preserve">
+    <value>Enviar PED por correo electrónico</value>
+  </data>
+  <data name="btnexcluir" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="btngerapagemlote" xml:space="preserve">
+    <value>Generar PED por lotes</value>
+  </data>
+  <data name="btngeraremail" xml:space="preserve">
+    <value>Generar correo electrónico</value>
+  </data>
+  <data name="btngestores" xml:space="preserve">
+    <value>Gerentes</value>
+  </data>
+  <data name="btnimprimir" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="btnlogin" xml:space="preserve">
+    <value>Iniciar sesión</value>
+  </data>
+  <data name="btnmovimentacao" xml:space="preserve">
+    <value>Movimiento</value>
+  </data>
+  <data name="btnnotenhoemail" xml:space="preserve">
+    <value>¡No tengo un correo electrónico registrado!</value>
+  </data>
+  <data name="btnnovamsg" xml:space="preserve">
+    <value>Nuevo mensaje</value>
+  </data>
+  <data name="btnnovaprocura" xml:space="preserve">
+    <value>Nueva búsqueda</value>
+  </data>
+  <data name="btnnovo" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="btnnvusuario" xml:space="preserve">
+    <value>Nuevo Usuario</value>
+  </data>
+  <data name="btnpadanterior" xml:space="preserve">
+    <value>PEDs anteriores</value>
+  </data>
+  <data name="btnprocessarselecionados" xml:space="preserve">
+    <value>Procesar archivos seleccionados</value>
+  </data>
+  <data name="btnprocura" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="btnprocurar" xml:space="preserve">
+    <value>Para cargar</value>
+  </data>
+  <data name="btnreativar" xml:space="preserve">
+    <value>Reactivar</value>
+  </data>
+  <data name="btnreenviarcodigo" xml:space="preserve">
+    <value>Reenviar Codigo</value>
+  </data>
+  <data name="btnremoverr" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="btnreprocessartodos" xml:space="preserve">
+    <value>Reprocesar seleccionado</value>
+  </data>
+  <data name="btnresetsenha" xml:space="preserve">
+    <value>Restablecimiento de contraseña</value>
+  </data>
+  <data name="btnresponder" xml:space="preserve">
+    <value>Responder</value>
+  </data>
+  <data name="btnsalvar" xml:space="preserve">
+    <value>Ahorrar</value>
+  </data>
+  <data name="btnsend" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="btnsenhamail" xml:space="preserve">
+    <value>Enviar contraseña por correo electrónico</value>
+  </data>
+  <data name="btnsolicitaedicao" xml:space="preserve">
+    <value>Solicitar Editar</value>
+  </data>
+  <data name="btnvoltar" xml:space="preserve">
+    <value>Vuelve</value>
+  </data>
+  <data name="idabertoem" xml:space="preserve">
+    <value>Abierto en</value>
+  </data>
+  <data name="idabrir" xml:space="preserve">
+    <value>Abierto</value>
+  </data>
+  <data name="idacessomatricula" xml:space="preserve">
+    <value>Inicie sesión con su registro</value>
+  </data>
+  <data name="idacoes" xml:space="preserve">
+    <value>Comportamiento</value>
+  </data>
+  <data name="idacompanhacargaAPI" xml:space="preserve">
+    <value>Seguimiento de carga API</value>
+  </data>
+  <data name="idaddcarteiravalida" xml:space="preserve">
+    <value>¡Seleccione una cartera de clientes válida!</value>
+  </data>
+  <data name="idadimitidoem" xml:space="preserve">
+    <value>Admitido el:</value>
+  </data>
+  <data name="idadmissao" xml:space="preserve">
+    <value>Admisión</value>
+  </data>
+  <data name="idaguardecarregando" xml:space="preserve">
+    <value>¡Por favor espera! Cargando...</value>
+  </data>
+  <data name="idalteradas" xml:space="preserve">
+    <value>Cambiado</value>
+  </data>
+  <data name="idalterafoto" xml:space="preserve">
+    <value>Y también puedes cambiar tu foto de perfil ... ¡Compruébalo!</value>
+  </data>
+  <data name="idalteralogo" xml:space="preserve">
+    <value>Cambiar logo</value>
+  </data>
+  <data name="idalterargestores" xml:space="preserve">
+    <value>Gestores de cambios</value>
+  </data>
+  <data name="idalterarsenha" xml:space="preserve">
+    <value>Cambiar mi contraseña</value>
+  </data>
+  <data name="idambos" xml:space="preserve">
+    <value>Ambos</value>
+  </data>
+  <data name="idanexar" xml:space="preserve">
+    <value>Adjuntar</value>
+  </data>
+  <data name="idanexararquivo" xml:space="preserve">
+    <value>Adjuntar archivo</value>
+  </data>
+  <data name="idano" xml:space="preserve">
+    <value>Año</value>
+  </data>
+  <data name="idanobase" xml:space="preserve">
+    <value>Año base</value>
+  </data>
+  <data name="idapenascolaboradores" xml:space="preserve">
+    <value>Solo colaboradores</value>
+  </data>
+  <data name="idapenasgestores" xml:space="preserve">
+    <value>Solo administradores</value>
+  </data>
+  <data name="idaqui" xml:space="preserve">
+    <value>¡Aqui!</value>
+  </data>
+  <data name="idarea" xml:space="preserve">
+    <value>Areas</value>
+  </data>
+  <data name="idareaorigem" xml:space="preserve">
+    <value>Áreas de inicio</value>
+  </data>
+  <data name="idarquivo" xml:space="preserve">
+    <value>Archivo</value>
+  </data>
+  <data name="idarquivos" xml:space="preserve">
+    <value>Archivos</value>
+  </data>
+  <data name="idassunto" xml:space="preserve">
+    <value>idassunto</value>
+  </data>
+  <data name="idassuntoemail" xml:space="preserve">
+    <value>Asunto del email</value>
+  </data>
+  <data name="idassuntoemails" xml:space="preserve">
+    <value>Asunto del email</value>
+  </data>
+  <data name="idatencao" xml:space="preserve">
+    <value>Atención</value>
+  </data>
+  <data name="idatencaoverifique" xml:space="preserve">
+    <value>Atención: ¡Compruebe los elementos a continuación!</value>
+  </data>
+  <data name="idativo" xml:space="preserve">
+    <value>Activo</value>
+  </data>
+  <data name="idauxiliar" xml:space="preserve">
+    <value>Tratemos de ayudarte !!!</value>
+  </data>
+  <data name="idauxiliou" xml:space="preserve">
+    <value>¿Te ayudó este tutorial?</value>
+  </data>
+  <data name="idavaliacaodecompetencias" xml:space="preserve">
+    <value>Evaluación de habilidades</value>
+  </data>
+  <data name="idavaliacaofinal" xml:space="preserve">
+    <value>Evaluacion final</value>
+  </data>
+  <data name="idavaliacaofinalano" xml:space="preserve">
+    <value>Evaluación final del año - Fecha límite</value>
+  </data>
+  <data name="idavaliacaoinicial" xml:space="preserve">
+    <value>Evaluación inicial: fecha límite</value>
+  </data>
+  <data name="idavaliacaomeioano" xml:space="preserve">
+    <value>Evaluación de mitad de año - Fecha límite</value>
+  </data>
+  <data name="idavaliacoes" xml:space="preserve">
+    <value>Evaluaciones</value>
+  </data>
+  <data name="idbairro" xml:space="preserve">
+    <value>Barrio</value>
+  </data>
+  <data name="idbaixarselecionado" xml:space="preserve">
+    <value>Descargar seleccionados</value>
+  </data>
+  <data name="idbemvindo" xml:space="preserve">
+    <value>Bienvenido al sistema PED</value>
+  </data>
+  <data name="idbibliotecametas" xml:space="preserve">
+    <value>Biblioteca de objetivos</value>
+  </data>
+  <data name="idboasvindas" xml:space="preserve">
+    <value>Hola, bienvenido al sistema PED.</value>
+  </data>
+  <data name="idbuadd" xml:space="preserve">
+    <value>BUs agregadas</value>
+  </data>
+  <data name="idbudisp" xml:space="preserve">
+    <value>BUs disponibles</value>
+  </data>
+  <data name="idbus" xml:space="preserve">
+    <value>BU</value>
+  </data>
+  <data name="idcadastrocalaborador" xml:space="preserve">
+    <value>Registro de empleados</value>
+  </data>
+  <data name="idcadastrodecargo" xml:space="preserve">
+    <value>Registro de Trabajo</value>
+  </data>
+  <data name="idcadastroemails" xml:space="preserve">
+    <value>Registro de cuenta y correos electrónicos</value>
+  </data>
+  <data name="idcadastropad" xml:space="preserve">
+    <value>Registro PED</value>
+  </data>
+  <data name="idcaixademensagem" xml:space="preserve">
+    <value>Buzón</value>
+  </data>
+  <data name="idcamposdeimportacao" xml:space="preserve">
+    <value>Importar campos</value>
+  </data>
+  <data name="idcargahoraria" xml:space="preserve">
+    <value>Carga horaria</value>
+  </data>
+  <data name="idcargo" xml:space="preserve">
+    <value>Puesto</value>
+  </data>
+  <data name="idcarregando" xml:space="preserve">
+    <value>Cargando...</value>
+  </data>
+  <data name="idcarregarft" xml:space="preserve">
+    <value>¿Subimos tu foto? Seleccione la imagen deseada y haga clic en cargar.</value>
+  </data>
+  <data name="idcelular" xml:space="preserve">
+    <value>Teléfono móvil</value>
+  </data>
+  <data name="idcep" xml:space="preserve">
+    <value>Código postal</value>
+  </data>
+  <data name="idcidade" xml:space="preserve">
+    <value>Ciudad</value>
+  </data>
+  <data name="idcliente" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="idcnpj" xml:space="preserve">
+    <value>Número de identificación de la empresa</value>
+  </data>
+  <data name="idcobrapreenchimento" xml:space="preserve">
+    <value>Carga de llenado</value>
+  </data>
+  <data name="idcodigo" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="idcodigobu" xml:space="preserve">
+    <value>Código BU</value>
+  </data>
+  <data name="idcodigocargo" xml:space="preserve">
+    <value>Código de Trabajo</value>
+  </data>
+  <data name="idcolabdogestor" xml:space="preserve">
+    <value>Colaboradores del gerente</value>
+  </data>
+  <data name="idcolaborador" xml:space="preserve">
+    <value>Colaborador</value>
+  </data>
+  <data name="idcolaboradorresponsavelbu" xml:space="preserve">
+    <value>Colaborador responsable de las BU</value>
+  </data>
+  <data name="idcolabselecionado" xml:space="preserve">
+    <value>Colaborador seleccionado:</value>
+  </data>
+  <data name="idcomobjetivos" xml:space="preserve">
+    <value>Con objetivos</value>
+  </data>
+  <data name="idcomorealizacalculo" xml:space="preserve">
+    <value>¿Cómo se realiza este cálculo?</value>
+  </data>
+  <data name="idcompetencias" xml:space="preserve">
+    <value>Habilidades</value>
+  </data>
+  <data name="idcomplemento" xml:space="preserve">
+    <value>Complemento</value>
+  </data>
+  <data name="idcomrevisaofinalano" xml:space="preserve">
+    <value>Con revisión de fin de año</value>
+  </data>
+  <data name="idcomrevisaomeioano" xml:space="preserve">
+    <value>Con revisión de mitad de año</value>
+  </data>
+  <data name="idconcluido" xml:space="preserve">
+    <value>Concluido</value>
+  </data>
+  <data name="idconcluiutreinamento" xml:space="preserve">
+    <value>Completado el entrenamiento</value>
+  </data>
+  <data name="idconclusaoavaliacoes" xml:space="preserve">
+    <value>Finalización total de la evaluación</value>
+  </data>
+  <data name="idcondicao" xml:space="preserve">
+    <value>Observe las condiciones siguientes:</value>
+  </data>
+  <data name="idconfigdiversas" xml:space="preserve">
+    <value>Configuraciones varias</value>
+  </data>
+  <data name="idconfirmasenha" xml:space="preserve">
+    <value>Confirmar nueva contraseña:</value>
+  </data>
+  <data name="idconluidoem" xml:space="preserve">
+    <value>Concluido en</value>
+  </data>
+  <data name="idcontrato" xml:space="preserve">
+    <value>El contrato de operación</value>
+  </data>
+  <data name="idcopiaoculta" xml:space="preserve">
+    <value>Copia oculta</value>
+  </data>
+  <data name="idcopiar" xml:space="preserve">
+    <value>Copiar</value>
+  </data>
+  <data name="idcorpoemail" xml:space="preserve">
+    <value>Cuerpo del correo electronico</value>
+  </data>
+  <data name="idcriabiblioteca" xml:space="preserve">
+    <value>Puede crear sus propias bibliotecas de objetivos, ¡para no tener que introducir los mismos objetivos para diferentes miembros del equipo!</value>
+  </data>
+  <data name="idcriadoem" xml:space="preserve">
+    <value>Creado en</value>
+  </data>
+  <data name="idcurso" xml:space="preserve">
+    <value>Curso</value>
+  </data>
+  <data name="idcursoetreinamento" xml:space="preserve">
+    <value>cursos activos / formación para el empleado</value>
+  </data>
+  <data name="idcursossugeridos" xml:space="preserve">
+    <value>Cursos sugeridos</value>
+  </data>
+  <data name="iddadosacesso" xml:space="preserve">
+    <value>Datos de acceso</value>
+  </data>
+  <data name="iddadosempresa" xml:space="preserve">
+    <value>Datos de la empresa</value>
+  </data>
+  <data name="iddata" xml:space="preserve">
+    <value>Fecha</value>
+  </data>
+  <data name="iddatadecadastro" xml:space="preserve">
+    <value>Fecha de Registro</value>
+  </data>
+  <data name="iddataemissao" xml:space="preserve">
+    <value>Fecha de emisión:</value>
+  </data>
+  <data name="iddatafinal" xml:space="preserve">
+    <value>Fecha final</value>
+  </data>
+  <data name="iddatainicio" xml:space="preserve">
+    <value>La fecha de inicio</value>
+  </data>
+  <data name="iddeletar" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="iddemaisinfo" xml:space="preserve">
+    <value>Puede cambiar el resto de los datos haciendo clic en</value>
+  </data>
+  <data name="iddemissao" xml:space="preserve">
+    <value>Despido</value>
+  </data>
+  <data name="iddesbloqmetas" xml:space="preserve">
+    <value>Solicitud de desbloqueo de objetivo</value>
+  </data>
+  <data name="iddescrevaoproblema" xml:space="preserve">
+    <value>Describe el problema</value>
+  </data>
+  <data name="iddescricao" xml:space="preserve">
+    <value>Descripción</value>
+  </data>
+  <data name="iddescricaobu" xml:space="preserve">
+    <value>Descripción BU</value>
+  </data>
+  <data name="iddesculpa" xml:space="preserve">
+    <value>¡Lo siento,</value>
+  </data>
+  <data name="iddesejafazer" xml:space="preserve">
+    <value>¿Qué quieres hacer?</value>
+  </data>
+  <data name="iddestinatario" xml:space="preserve">
+    <value>Recipiente</value>
+  </data>
+  <data name="iddigiteemail" xml:space="preserve">
+    <value>Por favor, escriba su correo electrónico:</value>
+  </data>
+  <data name="idduplicados" xml:space="preserve">
+    <value>Duplicados</value>
+  </data>
+  <data name="ideditar" xml:space="preserve">
+    <value>Para editar</value>
+  </data>
+  <data name="idemaberto" xml:space="preserve">
+    <value>En abierto</value>
+  </data>
+  <data name="idemail" xml:space="preserve">
+    <value>Correo Electrónico</value>
+  </data>
+  <data name="idemaildestinatario" xml:space="preserve">
+    <value>Receptor de E-mail</value>
+  </data>
+  <data name="idemaildestino" xml:space="preserve">
+    <value>Receptor de E-mail</value>
+  </data>
+  <data name="idemailpontovirgula" xml:space="preserve">
+    <value>Ingrese correos electrónicos separados por punto y coma</value>
+  </data>
+  <data name="idemailsporvirgula" xml:space="preserve">
+    <value>Ingrese correos electrónicos separados por punto y coma</value>
+  </data>
+  <data name="idemissao" xml:space="preserve">
+    <value>Emisión:</value>
+  </data>
+  <data name="idempresa" xml:space="preserve">
+    <value>Empresa</value>
+  </data>
+  <data name="idendereco" xml:space="preserve">
+    <value>Dirección</value>
+  </data>
+  <data name="identrada" xml:space="preserve">
+    <value>Entrada</value>
+  </data>
+  <data name="idenviadas" xml:space="preserve">
+    <value>Expedido</value>
+  </data>
+  <data name="idenviando" xml:space="preserve">
+    <value>¡Enviando!</value>
+  </data>
+  <data name="idenviarsolicitacao" xml:space="preserve">
+    <value>Enviar petición</value>
+  </data>
+  <data name="idenviodeemail" xml:space="preserve">
+    <value>Envío de correo electrónico</value>
+  </data>
+  <data name="idenvioemail" xml:space="preserve">
+    <value>Mandando correos electrónicos</value>
+  </data>
+  <data name="idequipe" xml:space="preserve">
+    <value>Equipo</value>
+  </data>
+  <data name="idesquecisenha" xml:space="preserve">
+    <value>Olvide mi contraseña</value>
+  </data>
+  <data name="idestado" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="idesxpirasenha" xml:space="preserve">
+    <value>Su contraseña caduca el:</value>
+  </data>
+  <data name="idevolucaocolaborador" xml:space="preserve">
+    <value>Evolución de los empleados</value>
+  </data>
+  <data name="idexcel" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="idexclamacao" xml:space="preserve">
+    <value>!</value>
+  </data>
+  <data name="idexcluidas" xml:space="preserve">
+    <value>Excluido</value>
+  </data>
+  <data name="idexibedemitidos" xml:space="preserve">
+    <value>Ver despedido</value>
+  </data>
+  <data name="idexibeinativo" xml:space="preserve">
+    <value>Mostrar inactivo</value>
+  </data>
+  <data name="idexibeselecionado" xml:space="preserve">
+    <value>Eliminar seleccionado</value>
+  </data>
+  <data name="idexibexcluido" xml:space="preserve">
+    <value>Mostrar eliminado</value>
+  </data>
+  <data name="idexibirativo" xml:space="preserve">
+    <value>Mostrar solo activos</value>
+  </data>
+  <data name="idexibirsuspensos" xml:space="preserve">
+    <value>Mostrar solo suspendido</value>
+  </data>
+  <data name="idexplicativo" xml:space="preserve">
+    <value>Exámenes explicativos / adicionales</value>
+  </data>
+  <data name="idfaseavaliacaoativa" xml:space="preserve">
+    <value>Fase de evaluación activa</value>
+  </data>
+  <data name="idfechar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="idfilial" xml:space="preserve">
+    <value>Subsidiaria:</value>
+  </data>
+  <data name="idfinal" xml:space="preserve">
+    <value>Final</value>
+  </data>
+  <data name="idfinaldoano" xml:space="preserve">
+    <value>Fin de año</value>
+  </data>
+  <data name="idformuladriosemacesso" xml:space="preserve">
+    <value>Formularios sin acceso</value>
+  </data>
+  <data name="idformulariocomacesso" xml:space="preserve">
+    <value>Formularios accedidos</value>
+  </data>
+  <data name="idgeraremail" xml:space="preserve">
+    <value>Generar correo electrónico</value>
+  </data>
+  <data name="idgerarmsg" xml:space="preserve">
+    <value>Generar mensaje saliente</value>
+  </data>
+  <data name="idgestor" xml:space="preserve">
+    <value>Gerente</value>
+  </data>
+  <data name="idgestoresdiretos" xml:space="preserve">
+    <value>Gerentes directos</value>
+  </data>
+  <data name="idgrupo" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="idgrupodeacesso" xml:space="preserve">
+    <value>Grupo de acceso</value>
+  </data>
+  <data name="idhrfinal" xml:space="preserve">
+    <value>Hora de finalización</value>
+  </data>
+  <data name="idhrinicio" xml:space="preserve">
+    <value>Hora de inicio</value>
+  </data>
+  <data name="idid" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="ididcolab" xml:space="preserve">
+    <value>Registro colaborador</value>
+  </data>
+  <data name="ididgestor" xml:space="preserve">
+    <value>Gerente de registro</value>
+  </data>
+  <data name="ididpad" xml:space="preserve">
+    <value>Id PED</value>
+  </data>
+  <data name="ididvisualelicenciamento" xml:space="preserve">
+    <value>Identidad visual y licencias</value>
+  </data>
+  <data name="idignorar" xml:space="preserve">
+    <value>Ignorar</value>
+  </data>
+  <data name="idimportardados" xml:space="preserve">
+    <value>Importación de datos</value>
+  </data>
+  <data name="idinativo" xml:space="preserve">
+    <value>Inactivo</value>
+  </data>
+  <data name="idincluidas" xml:space="preserve">
+    <value>Incluido</value>
+  </data>
+  <data name="idincluidoem" xml:space="preserve">
+    <value>Incluido en</value>
+  </data>
+  <data name="idindicadores" xml:space="preserve">
+    <value>Indicadores</value>
+  </data>
+  <data name="idindicadorespad" xml:space="preserve">
+    <value>Cursos indicados en PED</value>
+  </data>
+  <data name="idindicadorpadstatus" xml:space="preserve">
+    <value>¡Hola! ¡Indicó la capacitación a continuación para el empleado de PAD! Necesitamos que informe el estado actual haciendo clic en las opciones de la lista:</value>
+  </data>
+  <data name="idinforacoesgerais" xml:space="preserve">
+    <value>Informaciones generales</value>
+  </data>
+  <data name="idinicial" xml:space="preserve">
+    <value>Inicial</value>
+  </data>
+  <data name="idinsirainfo" xml:space="preserve">
+    <value>Por favor, introduzca la siguiente información:</value>
+  </data>
+  <data name="idip" xml:space="preserve">
+    <value>IP</value>
+  </data>
+  <data name="iditem" xml:space="preserve">
+    <value>Articulo</value>
+  </data>
+  <data name="iditenspreencidos" xml:space="preserve">
+    <value>Artículos llenos</value>
+  </data>
+  <data name="idjustificativa" xml:space="preserve">
+    <value>Justificación</value>
+  </data>
+  <data name="idlegenda" xml:space="preserve">
+    <value>Subtitular</value>
+  </data>
+  <data name="idliberadopor" xml:space="preserve">
+    <value>Publicado por</value>
+  </data>
+  <data name="idliberados" xml:space="preserve">
+    <value>Ver lanzado</value>
+  </data>
+  <data name="idliberar" xml:space="preserve">
+    <value>Lanzamiento</value>
+  </data>
+  <data name="idlinhaatual" xml:space="preserve">
+    <value>Línea actual</value>
+  </data>
+  <data name="idlocalizacolab" xml:space="preserve">
+    <value>Empleados localizados</value>
+  </data>
+  <data name="idlocalizados" xml:space="preserve">
+    <value>Situado</value>
+  </data>
+  <data name="idlocalizar" xml:space="preserve">
+    <value>Localizar</value>
+  </data>
+  <data name="idlocaltime" xml:space="preserve">
+    <value>Hora local</value>
+  </data>
+  <data name="idlogin" xml:space="preserve">
+    <value>Iniciar sesión</value>
+  </data>
+  <data name="idmaiuscula" xml:space="preserve">
+    <value>Una letra mayúscula</value>
+  </data>
+  <data name="idmanualsistema" xml:space="preserve">
+    <value>Manual del sistema</value>
+  </data>
+  <data name="idmatricula" xml:space="preserve">
+    <value>Registro</value>
+  </data>
+  <data name="idmediageral" xml:space="preserve">
+    <value>Media general</value>
+  </data>
+  <data name="idmediapontcolab" xml:space="preserve">
+    <value>Puntajes promedio de los empleados</value>
+  </data>
+  <data name="idmeiodoano" xml:space="preserve">
+    <value>Mediados de ano</value>
+  </data>
+  <data name="idmetainicial" xml:space="preserve">
+    <value>Objetivo inicial</value>
+  </data>
+  <data name="idmetaseobjetivos" xml:space="preserve">
+    <value>Metas y objetivos</value>
+  </data>
+  <data name="idmeuscolabs" xml:space="preserve">
+    <value>Mis colaboradores</value>
+  </data>
+  <data name="idmodelocontrato" xml:space="preserve">
+    <value>Modelo de contrato</value>
+  </data>
+  <data name="idmovimento" xml:space="preserve">
+    <value>Movimiento</value>
+  </data>
+  <data name="idnaoajudou" xml:space="preserve">
+    <value>¡No, todavía necesito apoyo!</value>
+  </data>
+  <data name="idnaocontabilizado" xml:space="preserve">
+    <value>No contabilizado</value>
+  </data>
+  <data name="idnaopreenchidos" xml:space="preserve">
+    <value>No llenado</value>
+  </data>
+  <data name="idnaorealizados" xml:space="preserve">
+    <value>No realizado</value>
+  </data>
+  <data name="idnconfereantiga" xml:space="preserve">
+    <value>La contraseña anterior no coincide</value>
+  </data>
+  <data name="idnconferesenha" xml:space="preserve">
+    <value>Las contraseñas ingresadas no coinciden</value>
+  </data>
+  <data name="idnenhumacarga" xml:space="preserve">
+    <value>No se encontró carga</value>
+  </data>
+  <data name="idnenhumaempresa" xml:space="preserve">
+    <value>¡No se encontraron empresas!</value>
+  </data>
+  <data name="idnenhumameta" xml:space="preserve">
+    <value>¡Ningún gol registrado!</value>
+  </data>
+  <data name="idnenhumaorigem" xml:space="preserve">
+    <value>¡No se encontró ninguna fuente!</value>
+  </data>
+  <data name="idnenhumapaginalocalizada" xml:space="preserve">
+    <value>No se encontraron páginas</value>
+  </data>
+  <data name="idnenhumarquivo" xml:space="preserve">
+    <value>¡No se encontraron archivos!</value>
+  </data>
+  <data name="idnenhumarquivocarregado" xml:space="preserve">
+    <value>No se han subido archivos</value>
+  </data>
+  <data name="idnenhumasolicitacao" xml:space="preserve">
+    <value>¡No se encontraron solicitudes!</value>
+  </data>
+  <data name="idnenhumcolabencontrado" xml:space="preserve">
+    <value>¡No se encontraron colaboradores!</value>
+  </data>
+  <data name="idnenhumcurso" xml:space="preserve">
+    <value>¡No se encontraron cursos!</value>
+  </data>
+  <data name="idnenhumlancamento" xml:space="preserve">
+    <value>¡No se encontraron lanzamientos!</value>
+  </data>
+  <data name="idnenhumstatus" xml:space="preserve">
+    <value>Sin estado agregado</value>
+  </data>
+  <data name="idnivelpermissaocolab" xml:space="preserve">
+    <value>Establezca el nivel de permiso del empleado</value>
+  </data>
+  <data name="idnome" xml:space="preserve">
+    <value> Nombre</value>
+  </data>
+  <data name="idnomebiblioteca" xml:space="preserve">
+    <value>Nombre de la biblioteca</value>
+  </data>
+  <data name="idnomecolab" xml:space="preserve">
+    <value>Nombre del colaborador</value>
+  </data>
+  <data name="idnomeempresa" xml:space="preserve">
+    <value>Nombre de la empresa</value>
+  </data>
+  <data name="idnomegestor" xml:space="preserve">
+    <value>Nombre del gerente</value>
+  </data>
+  <data name="idnomejaexiste" xml:space="preserve">
+    <value>¡Atención, el nombre que ingresaste ya existe!</value>
+  </data>
+  <data name="idnomemodelo" xml:space="preserve">
+    <value>Ingrese un nombre para el modelo</value>
+  </data>
+  <data name="idnometreinamento" xml:space="preserve">
+    <value>Nombre de la formación</value>
+  </data>
+  <data name="idnovamsg" xml:space="preserve">
+    <value>Nuevo mensaje</value>
+  </data>
+  <data name="idnovapermissão" xml:space="preserve">
+    <value>Agregar nuevo permiso</value>
+  </data>
+  <data name="idnovasenha" xml:space="preserve">
+    <value>Nueva contraseña:</value>
+  </data>
+  <data name="idnovoscolabs" xml:space="preserve">
+    <value>Nuevos empleados</value>
+  </data>
+  <data name="idnovotxtemail" xml:space="preserve">
+    <value>Nuevo texto de correo electrónico</value>
+  </data>
+  <data name="idnovousuario" xml:space="preserve">
+    <value>Novo usuário</value>
+  </data>
+  <data name="idnum" xml:space="preserve">
+    <value>Número</value>
+  </data>
+  <data name="idnumletras" xml:space="preserve">
+    <value>Números y letras</value>
+  </data>
+  <data name="idobjetivos" xml:space="preserve">
+    <value>Metas</value>
+  </data>
+  <data name="idobservacoes" xml:space="preserve">
+    <value>Observación</value>
+  </data>
+  <data name="idoculto" xml:space="preserve">
+    <value>Oculto</value>
+  </data>
+  <data name="idopcao" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="idops" xml:space="preserve">
+    <value>Ups, ¿otra vez? ¡Perdimos el camino!</value>
+  </data>
+  <data name="idoqueprocura" xml:space="preserve">
+    <value>¿Qué estás buscando?</value>
+  </data>
+  <data name="idordenarpor" xml:space="preserve">
+    <value>Ordenar por</value>
+  </data>
+  <data name="idpad" xml:space="preserve">
+    <value>PED</value>
+  </data>
+  <data name="idpadano" xml:space="preserve">
+    <value>Año PED</value>
+  </data>
+  <data name="idpadativo" xml:space="preserve">
+    <value>PED activo</value>
+  </data>
+  <data name="idpadextenso" xml:space="preserve">
+    <value>Programa de Evaluación de Desempeño</value>
+  </data>
+  <data name="idpadid" xml:space="preserve">
+    <value>PED id</value>
+  </data>
+  <data name="idpadrao" xml:space="preserve">
+    <value>Patrón:</value>
+  </data>
+  <data name="idpadspreenchidos" xml:space="preserve">
+    <value>PED's lleno</value>
+  </data>
+  <data name="idpaineldeacompanhamento" xml:space="preserve">
+    <value>Panel de monitoreo</value>
+  </data>
+  <data name="idpaineldecolab" xml:space="preserve">
+    <value>Ver panel de colaboradores</value>
+  </data>
+  <data name="idpainelgeral" xml:space="preserve">
+    <value>Panel general</value>
+  </data>
+  <data name="idpais" xml:space="preserve">
+    <value>País</value>
+  </data>
+  <data name="idperiodo" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="idpermissao" xml:space="preserve">
+    <value>Permiso</value>
+  </data>
+  <data name="idpermissaogestor" xml:space="preserve">
+    <value>Permiso de acceso de administrador predeterminado</value>
+  </data>
+  <data name="idpermissoesdeacesso" xml:space="preserve">
+    <value>Permisos de acceso</value>
+  </data>
+  <data name="idpeso" xml:space="preserve">
+    <value>Peso</value>
+  </data>
+  <data name="idpontos" xml:space="preserve">
+    <value>Puntos</value>
+  </data>
+  <data name="idpontosobtios" xml:space="preserve">
+    <value>Puntos ganados</value>
+  </data>
+  <data name="idpontuacao" xml:space="preserve">
+    <value>Puntuación</value>
+  </data>
+  <data name="idpontuacoesindiv" xml:space="preserve">
+    <value>Puntuaciones individuales</value>
+  </data>
+  <data name="idporta" xml:space="preserve">
+    <value>Puerta</value>
+  </data>
+  <data name="idprazosentradas" xml:space="preserve">
+    <value>Plazos de entrada de información</value>
+  </data>
+  <data name="idpreenchidos" xml:space="preserve">
+    <value>Lleno</value>
+  </data>
+  <data name="idprimeiroacesso" xml:space="preserve">
+    <value>¡Este es su primer acceso y sus datos están desactualizados! ¿Los actualizamos?</value>
+  </data>
+  <data name="idprocessados" xml:space="preserve">
+    <value>Procesada</value>
+  </data>
+  <data name="idprocurar" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="idprocurarcolcaborador" xml:space="preserve">
+    <value>Buscar Colaborador</value>
+  </data>
+  <data name="idqmprocura" xml:space="preserve">
+    <value>¿A quién quieres buscar?</value>
+  </data>
+  <data name="idqtdereg" xml:space="preserve">
+    <value>Cantidad Reg</value>
+  </data>
+  <data name="idquadroavisos" xml:space="preserve">
+    <value>Tablón de anuncios</value>
+  </data>
+  <data name="idquantidadeaplicada" xml:space="preserve">
+    <value>Cantidad aplicada</value>
+  </data>
+  <data name="idquantidadeempressao" xml:space="preserve">
+    <value>Cantidad de presión:</value>
+  </data>
+  <data name="idquebom" xml:space="preserve">
+    <value>¡Que bien! ¡Su archivo se ha generado correctamente!</value>
+  </data>
+  <data name="idrascunhos" xml:space="preserve">
+    <value>Borradores</value>
+  </data>
+  <data name="idrazaoseg" xml:space="preserve">
+    <value>Por motivos de seguridad, cambie su contraseña.</value>
+  </data>
+  <data name="idrealizado" xml:space="preserve">
+    <value>Realizado</value>
+  </data>
+  <data name="idrelatorioPAD" xml:space="preserve">
+    <value>Informe PED</value>
+  </data>
+  <data name="idrelatorios" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="idrelatorioscarregados" xml:space="preserve">
+    <value>- INFORME DE LOTES CARGADOS -</value>
+  </data>
+  <data name="idrelatoriotreinamentos" xml:space="preserve">
+    <value>Informe de entrenamiento</value>
+  </data>
+  <data name="idrelatoriotreinamnetos" xml:space="preserve">
+    <value>Informe de entrenamiento</value>
+  </data>
+  <data name="idremetente" xml:space="preserve">
+    <value>Remitente</value>
+  </data>
+  <data name="idremoverindicacao" xml:space="preserve">
+    <value>Eliminar la indicación</value>
+  </data>
+  <data name="idreprocessar" xml:space="preserve">
+    <value>Reprocesar</value>
+  </data>
+  <data name="idresultado" xml:space="preserve">
+    <value>Resultado</value>
+  </data>
+  <data name="idresultadofinal" xml:space="preserve">
+    <value>Resultado final</value>
+  </data>
+  <data name="idresultadoobtido" xml:space="preserve">
+    <value>Resultados obtenidos</value>
+  </data>
+  <data name="idresumobtidos" xml:space="preserve">
+    <value>Resultados obtenidos</value>
+  </data>
+  <data name="idresumopad" xml:space="preserve">
+    <value>Resumen de PED</value>
+  </data>
+  <data name="idrevisaofinalano" xml:space="preserve">
+    <value>Revisión final del ano</value>
+  </data>
+  <data name="idrevisaomeioano" xml:space="preserve">
+    <value>Revisión de medio ano</value>
+  </data>
+  <data name="idsair" xml:space="preserve">
+    <value>Fuera</value>
+  </data>
+  <data name="idselecionaarquivo" xml:space="preserve">
+    <value>Seleccione el archivo deseado</value>
+  </data>
+  <data name="idselecionartodos" xml:space="preserve">
+    <value>Selecionar Todos</value>
+  </data>
+  <data name="idselecionatodas" xml:space="preserve">
+    <value>Selecionar Todos</value>
+  </data>
+  <data name="idselecionatodos" xml:space="preserve">
+    <value>Seleccionar todo</value>
+  </data>
+  <data name="idselecioneabiblioteca" xml:space="preserve">
+    <value>Seleccione la biblioteca deseada</value>
+  </data>
+  <data name="idsemacesso" xml:space="preserve">
+    <value>¡Lo sentimos, no tienes acceso a la página!</value>
+  </data>
+  <data name="idsemobjetivos" xml:space="preserve">
+    <value>Sin objetivos</value>
+  </data>
+  <data name="idsemrevisaofinalano" xml:space="preserve">
+    <value>Sin revisión de mitad de año</value>
+  </data>
+  <data name="idsemrevisaomeioano" xml:space="preserve">
+    <value>Sin revisión de mitad de año</value>
+  </data>
+  <data name="idsenha" xml:space="preserve">
+    <value>Contraseña</value>
+  </data>
+  <data name="idsenhaantiga" xml:space="preserve">
+    <value>Contraseña anterior:</value>
+  </data>
+  <data name="idservidor" xml:space="preserve">
+    <value>Servidor:</value>
+  </data>
+  <data name="idsimajudou" xml:space="preserve">
+    <value>¡Sí, ayudó!</value>
+  </data>
+  <data name="idsimbolos" xml:space="preserve">
+    <value>Símbolos especiales</value>
+  </data>
+  <data name="idsituacaocolab" xml:space="preserve">
+    <value>Seleccione la situación de empleado deseada</value>
+  </data>
+  <data name="idsmart" xml:space="preserve">
+    <value>Soluciones de software SmartCode</value>
+  </data>
+  <data name="idsolicitacao" xml:space="preserve">
+    <value>Solicitación</value>
+  </data>
+  <data name="idsolicitacaodesbloqueio" xml:space="preserve">
+    <value>Tiene solicitudes para desbloquear los objetivos PED a continuación:</value>
+  </data>
+  <data name="idsolicitadesbloq" xml:space="preserve">
+    <value>Solicitud de desbloqueo</value>
+  </data>
+  <data name="idsolicitasenhaadm" xml:space="preserve">
+    <value>Solicitar contraseñas de ADM</value>
+  </data>
+  <data name="idssl" xml:space="preserve">
+    <value>SSL</value>
+  </data>
+  <data name="idstatus" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="idstatusativo" xml:space="preserve">
+    <value>Estado activo</value>
+  </data>
+  <data name="idstatuspad" xml:space="preserve">
+    <value>Estado PED</value>
+  </data>
+  <data name="idsugestaotreinamentos" xml:space="preserve">
+    <value>Entrenamientos sugeridos</value>
+  </data>
+  <data name="idsuspenso" xml:space="preserve">
+    <value>Suspendido</value>
+  </data>
+  <data name="idtbresultados" xml:space="preserve">
+    <value>Tabla de resultados</value>
+  </data>
+  <data name="idtelefone" xml:space="preserve">
+    <value>Teléfono</value>
+  </data>
+  <data name="idtextoemails" xml:space="preserve">
+    <value>Mensajes de correo electrónico</value>
+  </data>
+  <data name="idtextolegenda" xml:space="preserve">
+    <value>Texto de la leyenda</value>
+  </data>
+  <data name="idtimezone" xml:space="preserve">
+    <value> Zona Horaria</value>
+  </data>
+  <data name="idtipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="idtitlocalizarpropostas" xml:space="preserve">
+    <value>¡Atención!</value>
+  </data>
+  <data name="idtitulolegenda" xml:space="preserve">
+    <value>Título de la leyenda</value>
+  </data>
+  <data name="idtodos" xml:space="preserve">
+    <value>Todas</value>
+  </data>
+  <data name="idtotaliquido" xml:space="preserve">
+    <value>Total líquido:</value>
+  </data>
+  <data name="idtotalpontos" xml:space="preserve">
+    <value>Total de puntos</value>
+  </data>
+  <data name="idtpdearqenvio" xml:space="preserve">
+    <value>Cargar tipo de archivo</value>
+  </data>
+  <data name="idtreinamento" xml:space="preserve">
+    <value>Formación</value>
+  </data>
+  <data name="idtreinamentocargo" xml:space="preserve">
+    <value>Entrenamiento para el puesto</value>
+  </data>
+  <data name="idtreinamentocurso" xml:space="preserve">
+    <value>Formación/Curso</value>
+  </data>
+  <data name="idtreinamentoemaberto" xml:space="preserve">
+    <value>Entrenamiento abierto</value>
+  </data>
+  <data name="idtreinamnetosdisponiveis" xml:space="preserve">
+    <value>Entrenamientos disponibles</value>
+  </data>
+  <data name="iduf" xml:space="preserve">
+    <value>Estado</value>
+  </data>
+  <data name="idurl" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="idusar" xml:space="preserve">
+    <value>Utilizar</value>
+  </data>
+  <data name="idusarem" xml:space="preserve">
+    <value>Usar en</value>
+  </data>
+  <data name="idusuario" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="idusuarioporvirgula" xml:space="preserve">
+    <value>Separe las direcciones con punto y coma (;). Haga clic en Buscar para listar los usuarios del sistema.</value>
+  </data>
+  <data name="idutctime" xml:space="preserve">
+    <value>Hora UTC</value>
+  </data>
+  <data name="idvalidasenhas" xml:space="preserve">
+    <value>Validación de contraseña</value>
+  </data>
+  <data name="idvercurso" xml:space="preserve">
+    <value>Ver curso</value>
+  </data>
+  <data name="idvocepossui" xml:space="preserve">
+    <value>Tienes</value>
+  </data>
+  <data name="idà" xml:space="preserve">
+    <value>los</value>
+  </data>
+  <data name="lblacessonaopermitido" xml:space="preserve">
+    <value>Lamentablemente, su acceso no está permitido en esta opción. ¡Consulte con su administrador y vuelva a intentarlo!</value>
+  </data>
+  <data name="menucadastros" xml:space="preserve">
+    <value>Registro</value>
+  </data>
+  <data name="txtgestoratual" xml:space="preserve">
+    <value>Gerente Actual</value>
+  </data>
+  <data name="txtuser" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="btncolapso" xml:space="preserve">
+    <value>Colapso</value>
+  </data>
+  <data name="btnfechar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="id4msg" xml:space="preserve">
+    <value>Tienes 4 mensajes</value>
+  </data>
+  <data name="ida" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="idapenasperfil" xml:space="preserve">
+    <value>¡Solo tú puedes ver tu perfil!</value>
+  </data>
+  <data name="idatençãoabaixo" xml:space="preserve">
+    <value>Preste atención a las siguientes condiciones:</value>
+  </data>
+  <data name="idavaliacao" xml:space="preserve">
+    <value>valuación de</value>
+  </data>
+  <data name="idcancelaralteracao" xml:space="preserve">
+    <value>Cancelar cambio</value>
+  </data>
+  <data name="idcargapi" xml:space="preserve">
+    <value>Carga API</value>
+  </data>
+  <data name="idchamado" xml:space="preserve">
+    <value>Llamado</value>
+  </data>
+  <data name="idchegoumsg" xml:space="preserve">
+    <value>¡Ha llegado el mensaje!</value>
+  </data>
+  <data name="idcolaboradores" xml:space="preserve">
+    <value>Colaboradores</value>
+  </data>
+  <data name="idcomofaco" xml:space="preserve">
+    <value>¿Como yo hago?</value>
+  </data>
+  <data name="idconfiguracoes" xml:space="preserve">
+    <value>Ajustes</value>
+  </data>
+  <data name="idconfirmesenhaa" xml:space="preserve">
+    <value>Confirmar contraseña</value>
+  </data>
+  <data name="idcpf" xml:space="preserve">
+    <value>DNI (documento nacional de identidad)</value>
+  </data>
+  <data name="idd" xml:space="preserve">
+    <value>D</value>
+  </data>
+  <data name="iddesempenho" xml:space="preserve">
+    <value>esempeño</value>
+  </data>
+  <data name="iddireitosreservados" xml:space="preserve">
+    <value>Todos los derechos reservados.</value>
+  </data>
+  <data name="idinfo" xml:space="preserve">
+    <value>Información</value>
+  </data>
+  <data name="idinfoacesso" xml:space="preserve">
+    <value>Informacion de acceso</value>
+  </data>
+  <data name="idinfopessoal" xml:space="preserve">
+    <value>Informaciones personales</value>
+  </data>
+  <data name="idinterno" xml:space="preserve">
+    <value>Interno</value>
+  </data>
+  <data name="idlinhatempo" xml:space="preserve">
+    <value>Linea del tiempo</value>
+  </data>
+  <data name="idnegociacao" xml:space="preserve">
+    <value>Negociaciones</value>
+  </data>
+  <data name="idnota" xml:space="preserve">
+    <value>Los grados</value>
+  </data>
+  <data name="idnovopad" xml:space="preserve">
+    <value>Nuevo PED</value>
+  </data>
+  <data name="idnumletrasmin" xml:space="preserve">
+    <value>Números y letras minúsculas</value>
+  </data>
+  <data name="idnvchamado" xml:space="preserve">
+    <value>Nueva llamada</value>
+  </data>
+  <data name="idp" xml:space="preserve">
+    <value>P</value>
+  </data>
+  <data name="idpainelacompanhamento" xml:space="preserve">
+    <value>Panel de monitoreo</value>
+  </data>
+  <data name="idperfil" xml:space="preserve">
+    <value>Perfil</value>
+  </data>
+  <data name="idperfilcolab" xml:space="preserve">
+    <value>Perfil de colaborador</value>
+  </data>
+  <data name="idperfiluser" xml:space="preserve">
+    <value>Perfil del usuario</value>
+  </data>
+  <data name="idprocuramanual" xml:space="preserve">
+    <value>Manual de búsqueda</value>
+  </data>
+  <data name="idprograma" xml:space="preserve">
+    <value>rograma de</value>
+  </data>
+  <data name="idpropriedades" xml:space="preserve">
+    <value>propiedades</value>
+  </data>
+  <data name="idresultentrada" xml:space="preserve">
+    <value>Resultados de la lista de verificación entrante</value>
+  </data>
+  <data name="idrg" xml:space="preserve">
+    <value>RG</value>
+  </data>
+  <data name="idsenhaconf" xml:space="preserve">
+    <value>Comprobación de contraseñas</value>
+  </data>
+  <data name="idsenhanaoconf" xml:space="preserve">
+    <value>La contraseña anterior no coincide</value>
+  </data>
+  <data name="idsistemapad" xml:space="preserve">
+    <value>Sistema PED</value>
+  </data>
+  <data name="idsobre" xml:space="preserve">
+    <value>Sobre mi</value>
+  </data>
+  <data name="idtodasmsg" xml:space="preserve">
+    <value>Ver todos los mensajes ...</value>
+  </data>
+  <data name="idtreinaindicado" xml:space="preserve">
+    <value>Entrenamientos recomendados</value>
+  </data>
+  <data name="idutilitarios" xml:space="preserve">
+    <value>Utilidades</value>
+  </data>
+  <data name="idverifiquedados" xml:space="preserve">
+    <value>Atención: ¡Compruebe los elementos a continuación!</value>
+  </data>
+  <data name="idversao" xml:space="preserve">
+    <value>Versión:</value>
+  </data>
+  <data name="idautorizado" xml:space="preserve">
+    <value>Autorizado</value>
+  </data>
+  <data name="idcolabceva" xml:space="preserve">
+    <value>Colaborador CEVA</value>
+  </data>
+  <data name="idhora" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="idnao" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="idnaoautorizado" xml:space="preserve">
+    <value>No Autorizado </value>
+  </data>
+  <data name="idnomecontrato" xml:space="preserve">
+    <value>Nombre del contrato</value>
+  </data>
+  <data name="idsim" xml:space="preserve">
+    <value>Si</value>
+  </data>
+  <data name="btnexcel" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="idrelacione" xml:space="preserve">
+    <value>Relacionar los campos de la hoja de cálculo con los campos de la base de datos</value>
+  </data>
+  <data name="idrelatchecklists" xml:space="preserve">
+    <value>Informes de listas de verificación</value>
+  </data>
+  <data name="btnremover" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="idletrama" xml:space="preserve">
+    <value>Una letra mayúscula</value>
+  </data>
+  <data name="idrelatoriotreinamnetos1" xml:space="preserve">
+    <value>&gt;&gt;&gt;&gt;&gt;&gt;&gt; fdfdb35a50a9b47cbf35937c35558a48ca6c9f20</value>
+  </data>
+  <data name="idremetentee" xml:space="preserve">
+    <value>Remitente</value>
+  </data>
+  <data name="idacessorevogado" xml:space="preserve">
+    <value>Acceso revocado: ¡Su contraseña ha sido eliminada!</value>
+  </data>
+  <data name="idcontabloqueada" xml:space="preserve">
+    <value>¡Lo sentimos, tu cuenta ha sido bloqueada! ¡Póngase en contacto con su administrador!</value>
+  </data>
+  <data name="idsenhainvalida" xml:space="preserve">
+    <value>¡Contraseña invalida !</value>
+  </data>
+  <data name="idsenhasuspensa" xml:space="preserve">
+    <value>Acceso revocado: ¡Tu contraseña ha sido suspendida!</value>
+  </data>
+  <data name="idusuarionaoexiste" xml:space="preserve">
+    <value>¡El usuario no existe  !</value>
+  </data>
+  <data name="idcontabloq" xml:space="preserve">
+    <value>¡Lo sentimos, tu cuenta ha sido bloqueada! ¡Póngase en contacto con su administrador!</value>
+  </data>
+  <data name="idusuariovalido" xml:space="preserve">
+    <value>¡Ingrese un usuario válido!</value>
+  </data>
+  <data name="btnsalvarestrutura" xml:space="preserve">
+    <value>Guardar estructura</value>
+  </data>
+  <data name="idacessosuspenso" xml:space="preserve">
+    <value>¡Su acceso al sistema está suspendido! Póngase en contacto con el soporte.</value>
+  </data>
+  <data name="idarquivonaoexistenoservidor" xml:space="preserve">
+    <value>El archivo no existe en los servidores</value>
+  </data>
+  <data name="idatualizando" xml:space="preserve">
+    <value>Actualizando</value>
+  </data>
+  <data name="idatualizandoinfo" xml:space="preserve">
+    <value>¡Gracias! ¡Actualizamos tu información!</value>
+  </data>
+  <data name="idbunaoexiste" xml:space="preserve">
+    <value>¡El BUS no existe!</value>
+  </data>
+  <data name="idcaixadeentrada" xml:space="preserve">
+    <value>Caja de entrada</value>
+  </data>
+  <data name="idcampobase" xml:space="preserve">
+    <value>Campo base</value>
+  </data>
+  <data name="idcampoplanilha" xml:space="preserve">
+    <value>Campo de hoja de cálculo</value>
+  </data>
+  <data name="idcarregarbandeira" xml:space="preserve">
+    <value>Subir bandera</value>
+  </data>
+  <data name="idclientebloq" xml:space="preserve">
+    <value>Cliente bloqueado</value>
+  </data>
+  <data name="idcolabnaoehorista" xml:space="preserve">
+    <value>¡El empleado no es un trabajador por horas! Imposible crear su PAD.</value>
+  </data>
+  <data name="idcolabnaoexiste" xml:space="preserve">
+    <value>¡El colaborador no existe!</value>
+  </data>
+  <data name="idconfigcomsucesso" xml:space="preserve">
+    <value>¡Configuración guardada correctamente!</value>
+  </data>
+  <data name="idcursojaadd" xml:space="preserve">
+    <value>¡El curso ya ha sido agregado al puesto!</value>
+  </data>
+  <data name="idcursojadefinido" xml:space="preserve">
+    <value>¡Este curso ya está definido para este PAD! ¡Seleccione otro!</value>
+  </data>
+  <data name="iddadoscopiados" xml:space="preserve">
+    <value>¡Datos copiados correctamente! Haga clic en Confirmar.</value>
+  </data>
+  <data name="iddigitedescricao" xml:space="preserve">
+    <value>¡Ingrese una descripción para guardar!</value>
+  </data>
+  <data name="idempresanaoexiste" xml:space="preserve">
+    <value>¡La empresa no existe!</value>
+  </data>
+  <data name="iderrobasedados" xml:space="preserve">
+    <value>Error de la base de datos</value>
+  </data>
+  <data name="ideseusdadosforamatualizados" xml:space="preserve">
+    <value>¡Sus datos se han actualizado correctamente!</value>
+  </data>
+  <data name="idesp" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="idhorista" xml:space="preserve">
+    <value>Blue Collar</value>
+  </data>
+  <data name="idimpossivelcriarpad" xml:space="preserve">
+    <value>No se puede crear PAD</value>
+  </data>
+  <data name="idin" xml:space="preserve">
+    <value>Inglés</value>
+  </data>
+  <data name="idinformeemailvalido" xml:space="preserve">
+    <value>¡Introduzca una dirección de correo electrónico válida!</value>
+  </data>
+  <data name="idlegal" xml:space="preserve">
+    <value>Agradable</value>
+  </data>
+  <data name="idmostrar" xml:space="preserve">
+    <value>Mostrar</value>
+  </data>
+  <data name="idmuitobom" xml:space="preserve">
+    <value>¡Muy bien!</value>
+  </data>
+  <data name="idnaoexistetexto" xml:space="preserve">
+    <value>¡No hay texto para ese tipo! ¿Creamos un texto?</value>
+  </data>
+  <data name="idnaomostrar" xml:space="preserve">
+    <value>Algo salió mal.</value>
+  </data>
+  <data name="idnenhumabulocalizada" xml:space="preserve">
+    <value>¡No se encontró ningún BUS!</value>
+  </data>
+  <data name="idnenhumbuslocalizado" xml:space="preserve">
+    <value>¡No se ha encontrado ningún BUS!</value>
+  </data>
+  <data name="idnenhumcursoadd" xml:space="preserve">
+    <value>¡No se agregaron cursos!</value>
+  </data>
+  <data name="idpadraosalvo" xml:space="preserve">
+    <value>¡Predeterminado guardado con éxito!</value>
+  </data>
+  <data name="idpaineldecontrole" xml:space="preserve">
+    <value>Panel de control</value>
+  </data>
+  <data name="idpaisnaoinformado" xml:space="preserve">
+    <value>País no informado</value>
+  </data>
+  <data name="idpoxa" xml:space="preserve">
+    <value>Que tristeza</value>
+  </data>
+  <data name="idpreenchatodosintens" xml:space="preserve">
+    <value>¡Complete todos los elementos y vuelva a guardar!</value>
+  </data>
+  <data name="idprocessoconcluidocomsucesso" xml:space="preserve">
+    <value>¡Proceso completado con éxito!</value>
+  </data>
+  <data name="idprocuraempresa" xml:space="preserve">
+    <value>¡Seleccione una empresa para buscar!</value>
+  </data>
+  <data name="idpt" xml:space="preserve">
+    <value>Portugués</value>
+  </data>
+  <data name="idsalteraempresa" xml:space="preserve">
+    <value>¡Seleccione una empresa para cambiar!</value>
+  </data>
+  <data name="idsalvaempresa" xml:space="preserve">
+    <value>¡Ingrese una empresa para ahorrar!</value>
+  </data>
+  <data name="idsalvocomsucesso" xml:space="preserve">
+    <value>Guardado exitosamente</value>
+  </data>
+  <data name="idselecioneanobasevalido" xml:space="preserve">
+    <value>¡Seleccione un año base válido!</value>
+  </data>
+  <data name="idselecionecolabvalido" xml:space="preserve">
+    <value>¡Seleccione un colaborador válido!</value>
+  </data>
+  <data name="idselecioneconfigvalida" xml:space="preserve">
+    <value>Seleccione una configuración válida</value>
+  </data>
+  <data name="idselecionecursovalido" xml:space="preserve">
+    <value>¡Seleccione un curso válido!</value>
+  </data>
+  <data name="idselecionenumvalido" xml:space="preserve">
+    <value>¡Seleccione un número válido!</value>
+  </data>
+  <data name="idselecioneolanilha" xml:space="preserve">
+    <value>Seleccionar hoja de cálculo</value>
+  </data>
+  <data name="idselecionepadimprimir" xml:space="preserve">
+    <value>¡Seleccione un PAD válido para imprimir!</value>
+  </data>
+  <data name="idselecionepadvalido" xml:space="preserve">
+    <value>¡Seleccione un PAD válido!</value>
+  </data>
+  <data name="idselecionepadvalidosalvar" xml:space="preserve">
+    <value>¡Seleccione un PAD válido para guardar!</value>
+  </data>
+  <data name="idselecioneplanilha" xml:space="preserve">
+    <value>Seleccione una hoja de cálculo para enumerar los campos</value>
+  </data>
+  <data name="idselecionetodositensdaavaliacao" xml:space="preserve">
+    <value>¡Seleccione todos los elementos de evaluación de habilidades y vuelva a guardar!</value>
+  </data>
+  <data name="idselecionetodositensdarevisao" xml:space="preserve">
+    <value>¡Seleccione todos los elementos de la revisión final y vuelva a guardar!</value>
+  </data>
+  <data name="idselecioneumpad" xml:space="preserve">
+    <value>¡Seleccione al menos un PAD para descargar!</value>
+  </data>
+  <data name="idsenhaexpirara" xml:space="preserve">
+    <value>Tu contraseña caducará en</value>
+  </data>
+  <data name="idsituacaoatualizada" xml:space="preserve">
+    <value>Situación actualizada correctamente</value>
+  </data>
+  <data name="idsolicitacaonaoexistente" xml:space="preserve">
+    <value>¡La solicitud no existe!</value>
+  </data>
+  <data name="idsolicitacaoremovida" xml:space="preserve">
+    <value>Solicitud eliminada correctamente.</value>
+  </data>
+  <data name="idsolicitacaorespondida" xml:space="preserve">
+    <value>Solicitud respondida con éxito!</value>
+  </data>
+  <data name="idtipodetexto" xml:space="preserve">
+    <value>Tipo de texto:</value>
+  </data>
+  <data name="idusuariocriado" xml:space="preserve">
+    <value>¡Usuario creado con éxito!</value>
+  </data>
+  <data name="idvamosvoltaraoinicio" xml:space="preserve">
+    <value>¿Volvemos al principio?</value>
+  </data>
+  <data name="iddescnaoesxiste" xml:space="preserve">
+    <value>¡No existe tal descripción! ¡Ingrese una descripción válida!</value>
+  </data>
+  <data name="iddtemissao" xml:space="preserve">
+    <value>Fecha de emisión:</value>
+  </data>
+  <data name="idessapermissaoexiste" xml:space="preserve">
+    <value>¡Ese permiso ya existe!</value>
+  </data>
+  <data name="idformulariopad" xml:space="preserve">
+    <value>Formulario PED</value>
+  </data>
+  <data name="idinformedescricaovalida" xml:space="preserve">
+    <value>¡Ingrese una descripción válida!</value>
+  </data>
+  <data name="idinformenrseqvalido" xml:space="preserve">
+    <value>¡Ingrese nrseq válido para eliminar!</value>
+  </data>
+  <data name="idmuitaslinhasparaexcel" xml:space="preserve">
+    <value>¡Demasiadas líneas para exportar a Excel!</value>
+  </data>
+  <data name="idnenhumabibliotecalocalizada" xml:space="preserve">
+    <value>¡No se encuentra ninguna biblioteca!</value>
+  </data>
+  <data name="idnenhumobjnabiblioteca" xml:space="preserve">
+    <value>¡No hay ningún objetivo en tu biblioteca para guardar!</value>
+  </data>
+  <data name="idnenhumpadcomessasinfo" xml:space="preserve">
+    <value>Lo sentimos, no se encontró ningún PAD con esta información.</value>
+  </data>
+  <data name="idnenhumpadencontrado" xml:space="preserve">
+    <value>Lo sentimos, no se encontraron PED.</value>
+  </data>
+  <data name="idnomevalidobiblioteca" xml:space="preserve">
+    <value>Introduzca un nombre válido para esta biblioteca.</value>
+  </data>
+  <data name="idpadsmartcode" xml:space="preserve">
+    <value>PED - SmartCode</value>
+  </data>
+  <data name="idpontuacaofinalvalida" xml:space="preserve">
+    <value>Introduzca una puntuación final válida.</value>
+  </data>
+  <data name="idpontuacaoinicialvalida" xml:space="preserve">
+    <value>Introduzca una puntuación inicial válida.</value>
+  </data>
+  <data name="idselectbibliotecavalida" xml:space="preserve">
+    <value>¡Seleccione una biblioteca válida!</value>
+  </data>
+  <data name="idselectgestorvalido" xml:space="preserve">
+    <value>¡Seleccione un administrador válido!</value>
+  </data>
+  <data name="idselectumabulistar" xml:space="preserve">
+    <value>Por favor, seleccione al menos una BU para listar.</value>
+  </data>
+  <data name="txtanalisecomsucesso" xml:space="preserve">
+    <value>¡El análisis de competencias se ha guardado correctamente!</value>
+  </data>
+  <data name="txtcargonaoexiste" xml:space="preserve">
+    <value>¡El puesto no existe!</value>
+  </data>
+  <data name="txtcompetenciasalva" xml:space="preserve">
+    <value>¡Has guardado tus habilidades con éxito!</value>
+  </data>
+  <data name="txtemailenviado" xml:space="preserve">
+    <value>¡Email enviado con éxito! ¡Cierre la ventana para continuar!</value>
+  </data>
+  <data name="txtfalhadeenviodoemail" xml:space="preserve">
+    <value>No se pudo enviar el correo electrónico.</value>
+  </data>
+  <data name="txtinformemotivo" xml:space="preserve">
+    <value>Proporcione una razón</value>
+  </data>
+  <data name="txtsegurancatrabalho" xml:space="preserve">
+    <value>Seguridad del trabajo</value>
+  </data>
+  <data name="txtselectcargoaltera" xml:space="preserve">
+    <value>¡Seleccione una posición para cambiar!</value>
+  </data>
+  <data name="btnenviar" xml:space="preserve">
+    <value>Enviar</value>
+  </data>
+  <data name="btnesqueci" xml:space="preserve">
+    <value>Olvide mi contraseña</value>
+  </data>
+  <data name="btnntenhoemail" xml:space="preserve">
+    <value>¡No tengo un correo electrónico registrado!</value>
+  </data>
+  <data name="erroexisteusuario" xml:space="preserve">
+    <value>¡Ya existe un usuario con ese nombre de usuario / correo electrónico!</value>
+  </data>
+  <data name="errosenhavalida" xml:space="preserve">
+    <value>¡Ingrese una contraseña válida!</value>
+  </data>
+  <data name="errousuariovalido" xml:space="preserve">
+    <value>¡Ingrese un usuario válido!</value>
+  </data>
+  <data name="erroemailenviado" xml:space="preserve">
+    <value>¡Email enviado con éxito!</value>
+  </data>
+  <data name="erroemailnaoenviado" xml:space="preserve">
+    <value>¡El correo electrónico no fue enviado!</value>
+  </data>
+  <data name="idaddpad" xml:space="preserve">
+    <value>PED añadido</value>
+  </data>
+  <data name="idde" xml:space="preserve">
+    <value>en</value>
+  </data>
+  <data name="idficha" xml:space="preserve">
+    <value>Simbólico</value>
+  </data>
+  <data name="idinfopermissaovalid" xml:space="preserve">
+    <value>¡Ingrese un permiso válido!</value>
+  </data>
+  <data name="idinfosemailvalid" xml:space="preserve">
+    <value>¡Introduzca una dirección de correo electrónico válida!</value>
+  </data>
+  <data name="idinfosenhavalid" xml:space="preserve">
+    <value>¡Ingrese una contraseña válida!</value>
+  </data>
+  <data name="idmeta" xml:space="preserve">
+    <value>Objetivo</value>
+  </data>
+  <data name="idmotivo" xml:space="preserve">
+    <value>Razón</value>
+  </data>
+  <data name="idnaoexiste" xml:space="preserve">
+    <value>no existe</value>
+  </data>
+  <data name="idnenhumamsgpadraoloc" xml:space="preserve">
+    <value>¡No se encontraron mensajes predeterminados! ¡Correo electrónico no enviado!</value>
+  </data>
+  <data name="idnenhumusuarioencot" xml:space="preserve">
+    <value>¡No se encontraron usuarios!</value>
+  </data>
+  <data name="idoemail" xml:space="preserve">
+    <value>El correo electrónico</value>
+  </data>
+  <data name="idpfverifiqcaixaemails" xml:space="preserve">
+    <value>¡Por favor revise su bandeja de entrada!</value>
+  </data>
+  <data name="idselectusuariovalido" xml:space="preserve">
+    <value>¡Seleccione un usuario válido!</value>
+  </data>
+  <data name="iduserjaexiste" xml:space="preserve">
+    <value>Este usuario ya existe en el sistema. Introduzca un nuevo nombre o correo electrónico.</value>
+  </data>
+  <data name="idusuariocadsucess" xml:space="preserve">
+    <value>Usuario registrado exitosamente!</value>
+  </data>
+  <data name="idusuariosalvosucess" xml:space="preserve">
+    <value>Usuario guardado correctamente</value>
+  </data>
+  <data name="errocamposalvo" xml:space="preserve">
+    <value>¡Campos guardados correctamente!</value>
+  </data>
+  <data name="errocursonaoexiste" xml:space="preserve">
+    <value>¡El curso no existe!</value>
+  </data>
+  <data name="errodefinatipoemail" xml:space="preserve">
+    <value>Define un tipo de correo electrónico</value>
+  </data>
+  <data name="errodescrijaexiste" xml:space="preserve">
+    <value>¡Esa descripción ya existe! ¡Ingrese una descripción válida!</value>
+  </data>
+  <data name="errodigitepontucaovalida" xml:space="preserve">
+    <value>Introduzca una puntuación válida.</value>
+  </data>
+  <data name="erroentrenomevalido" xml:space="preserve">
+    <value>¡Ingrese un nombre de modelo válido!</value>
+  </data>
+  <data name="erroentretextovalido" xml:space="preserve">
+    <value>¡Ingrese un texto válido!</value>
+  </data>
+  <data name="erroidusuariovalido" xml:space="preserve">
+    <value>¡Ingrese una identificación de usuario válida!</value>
+  </data>
+  <data name="erroinfoidremover" xml:space="preserve">
+    <value>¡Ingrese una identificación válida para eliminar!</value>
+  </data>
+  <data name="erroinfonumvalido" xml:space="preserve">
+    <value>¡Ingrese un número válido!</value>
+  </data>
+  <data name="erronenhumaareaorigem" xml:space="preserve">
+    <value>¡No se ha encontrado ningún área de origen con esta descripción!</value>
+  </data>
+  <data name="erronenhumresultlocalizado" xml:space="preserve">
+    <value>¡No se han encontrado resultados!</value>
+  </data>
+  <data name="erroselecitemvalidoprocura" xml:space="preserve">
+    <value>Seleccione un elemento válido para buscar</value>
+  </data>
+  <data name="erroselectextpadraoemail" xml:space="preserve">
+    <value>¡Seleccione un texto estándar para enviar el correo electrónico!</value>
+  </data>
+  <data name="erroselectuservalido" xml:space="preserve">
+    <value>Seleccione un usuario válido</value>
+  </data>
+  <data name="errosolicdesbloqatendida" xml:space="preserve">
+    <value>Su solicitud de desbloqueo se ha cumplido. ¡Por favor revise el PAD para completar las nuevas metas / objetivos!</value>
+  </data>
+  <data name="errosolicitacaobloq" xml:space="preserve">
+    <value>La solicitud de desbloqueo ya se ha realizado en</value>
+  </data>
+  <data name="errousuarioexiste" xml:space="preserve">
+    <value>¡Este usuario ya existe en el sistema!</value>
+  </data>
+  <data name="errroinfoitemexcluir" xml:space="preserve">
+    <value>Introduzca un elemento para eliminar.</value>
+  </data>
+  <data name="idas" xml:space="preserve">
+    <value>a las</value>
+  </data>
+  <data name="idbloqip" xml:space="preserve">
+    <value>Bloqueo de IP</value>
+  </data>
+  <data name="idconfirmdesbloqmetas" xml:space="preserve">
+    <value>Confirmación de desbloqueo de objetivos</value>
+  </data>
+  <data name="iderrosolicdesbloqmetasetapa" xml:space="preserve">
+    <value>solicitó el desbloqueo de las porterías del escenario</value>
+  </data>
+  <data name="idinfocepnaoencontrado" xml:space="preserve">
+    <value>Zip no encontrado!</value>
+  </data>
+  <data name="idinfocepvalido" xml:space="preserve">
+    <value>¡Ingrese un código postal válido!</value>
+  </data>
+  <data name="idinfodescvalida" xml:space="preserve">
+    <value>¡Ingrese una descripción válida para el área!</value>
+  </data>
+  <data name="idmedianotasequipes" xml:space="preserve">
+    <value>Puntajes promedio del equipo:</value>
+  </data>
+  <data name="idmediareferenciadoano" xml:space="preserve">
+    <value>Promedio del año de referencia</value>
+  </data>
+  <data name="idmensagemerro" xml:space="preserve">
+    <value>Mensaje de error</value>
+  </data>
+  <data name="idmensagemerro1" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="idnaoavaliado" xml:space="preserve">
+    <value>No calificado</value>
+  </data>
+  <data name="idnenhumaconfigemail" xml:space="preserve">
+    <value>¡No hay configuraciones de correo electrónico para este usuario!</value>
+  </data>
+  <data name="idocorreuumerro" xml:space="preserve">
+    <value>¡Ups ... hubo un error!</value>
+  </data>
+  <data name="idopad" xml:space="preserve">
+    <value>del PED</value>
+  </data>
+  <data name="idousuario" xml:space="preserve">
+    <value>El usuario</value>
+  </data>
+  <data name="idpfaguarde" xml:space="preserve">
+    <value>Por favor espera</value>
+  </data>
+  <data name="idpfentresistemadesbloq" xml:space="preserve">
+    <value>¡Ingrese al sistema para desbloquearlo!</value>
+  </data>
+  <data name="idpfselectitennovamente" xml:space="preserve">
+    <value>¡Seleccione todos los elementos y vuelva a guardar!</value>
+  </data>
+  <data name="idprezadoadmin" xml:space="preserve">
+    <value>Estimado administrador: El usuario</value>
+  </data>
+  <data name="idseaplica" xml:space="preserve">
+    <value>aplica</value>
+  </data>
+  <data name="idsenhalteradamasememail" xml:space="preserve">
+    <value>La contraseña se restableció correctamente, pero el usuario no tiene una dirección de correo electrónico válida para enviar. ¡Complete un correo electrónico válido para el usuario!</value>
+  </data>
+  <data name="idsenhavalida" xml:space="preserve">
+    <value>¡Ingrese una contraseña válida!</value>
+  </data>
+  <data name="idservervalido" xml:space="preserve">
+    <value>¡Ingrese un servidor válido!</value>
+  </data>
+  <data name="idsispad" xml:space="preserve">
+    <value>Sistema PED</value>
+  </data>
+  <data name="idteveipbloq" xml:space="preserve">
+    <value>tenía su IP bloqueada debido a intentos de acceso inadecuado al sistema en</value>
+  </data>
+  <data name="idvisitante" xml:space="preserve">
+    <value>Visitante</value>
+  </data>
+  <data name="txtcevapadbemvindo" xml:space="preserve">
+    <value>Ceva PED - ¡Bienvenido al sistema!</value>
+  </data>
+  <data name="txtdigiteseulogin" xml:space="preserve">
+    <value>Ingrese su nombre de usuario en el campo de correo electrónico y haga clic en enviar.</value>
+  </data>
+  <data name="txtemailvalidousuario" xml:space="preserve">
+    <value>Complete un correo electrónico válido para el usuario</value>
+  </data>
+  <data name="idcadastro" xml:space="preserve">
+    <value>Registro</value>
+  </data>
+  <data name="idaceite" xml:space="preserve">
+    <value>Aceptar</value>
+  </data>
+  <data name="errosemjustifica" xml:space="preserve">
+    <value>Complete la justificación de todos los objetivos.</value>
+  </data>
+  <data name="idanobase2" xml:space="preserve">
+    <value>Base Year</value>
+  </data>
+  <data name="btnoutropais" xml:space="preserve">
+    <value>Otro País</value>
+  </data>
+  <data name="iddtnascimento" xml:space="preserve">
+    <value>Fecha de Nacimiento</value>
+  </data>
+  <data name="idmensalista" xml:space="preserve">
+    <value>White Collar</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="btnprocurarcolaboradores" xml:space="preserve">
+    <value>Buscar Empleados</value>
+  </data>
+  <data name="idapenashoristas" xml:space="preserve">
+    <value>Mostrar Solo Blue Collar</value>
+  </data>
+  <data name="idapenasmensalistas" xml:space="preserve">
+    <value>Mostrar Solo White Collar</value>
+  </data>
+  <data name="idexibirtodos" xml:space="preserve">
+    <value>Mostrar todo</value>
+  </data>
+  <data name="lblprocurarnome" xml:space="preserve">
+    <value>Nombre o registro del empleado</value>
+  </data>
+  <data name="idadmissaomaiorset" xml:space="preserve">
+    <value>Admisión superior a septiembre</value>
+  </data>
+  <data name="idnaoseaplica" xml:space="preserve">
+    <value>No se aplica</value>
+  </data>
+  <data name="idpermitirconcluirpad" xml:space="preserve">
+    <value>Permitir PED completo</value>
+  </data>
+  <data name="lblanosignorados" xml:space="preserve">
+    <value>Años ignorados en los indicadores PED</value>
+  </data>
+  <data name="idtotalcolaboradores" xml:space="preserve">
+    <value>Total de empleados válidos</value>
+  </data>
+  <data name="idavisoimagem" xml:space="preserve">
+    <value>* ¡Puede recortar su imagen colocando el cursor sobre ella y manteniéndola presionada con el botón derecho del mouse!</value>
+  </data>
+  <data name="idignorarpendencias" xml:space="preserve">
+    <value>Ignorar pendiente</value>
+  </data>
+  <data name="idocorrencias" xml:space="preserve">
+    <value>Ocurrencias</value>
+  </data>
+  <data name="errosolicitarignorar" xml:space="preserve">
+    <value>Por favor ingrese un motivo válido para su solicitud.</value>
+  </data>
+  <data name="idsolicitarignorar" xml:space="preserve">
+    <value>Petición</value>
+  </data>
+  <data name="sss" xml:space="preserve">
+    <value />
+  </data>
+  <data name="idsolicitacoesexclusoespad" xml:space="preserve">
+    <value>PAD Deletion Requests</value>
+  </data>
+  <data name="idsolicitadoem" xml:space="preserve">
+    <value>Pedido en</value>
+  </data>
+  <data name="idsolicitante" xml:space="preserve">
+    <value>Solicitante</value>
+  </data>
+  <data name="idabrangeforma" xml:space="preserve">
+    <value>Cubre empleados</value>
+  </data>
+  <data name="idabrange_horistas" xml:space="preserve">
+    <value>Blue Collar</value>
+  </data>
+  <data name="idabrange_level" xml:space="preserve">
+    <value>Level</value>
+  </data>
+  <data name="iderro_forma" xml:space="preserve">
+    <value>Seleccione un tipo válido !</value>
+  </data>
+  <data name="idsoldesbmetas" xml:space="preserve">
+    <value>Solicitudes de Desbloqueo de Objetivos</value>
+  </data>
+  <data name="idresultadosbusca" xml:space="preserve">
+    <value>Resultados de la Búsqueda</value>
+  </data>
+  <data name="idexibeignorados" xml:space="preserve">
+    <value />
+  </data>
+  <data name="idliberarsanoignorar" xml:space="preserve">
+    <value>Negar Solicitação</value>
+  </data>
+  <data name="idcor" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="idnovasocorrencias" xml:space="preserve">
+    <value>Nueva ocurrencia</value>
+  </data>
+  <data name="idpainelocorrencias" xml:space="preserve">
+    <value>Panel de eventos</value>
+  </data>
+  <data name="idnovaocorrencia" xml:space="preserve">
+    <value>Nueba Ocurrencia</value>
+  </data>
+  <data name="idsalvarocorrencia" xml:space="preserve">
+    <value>Guardar Ocurrencia</value>
+  </data>
+  <data name="errprocuracolaborador" xml:space="preserve">
+    <value>¡Por favor, el campo de búsqueda debe tener al menos 3 caracteres!</value>
+  </data>
+  <data name="idlistapads" xml:space="preserve">
+    <value>List of Pads</value>
+  </data>
+  <data name="idresultadobusca" xml:space="preserve">
+    <value>Resultado de Búsqueda</value>
+  </data>
+  <data name="idcolaboradoresencontrados" xml:space="preserve">
+    <value>Empleados encontrados</value>
+  </data>
+  <data name="idcolaboradoresdemissao" xml:space="preserve">
+    <value>Empleados marcados para despido</value>
+  </data>
+  <data name="idagenda" xml:space="preserve">
+    <value>Programador de Tareas</value>
+  </data>
+  <data name="idcontato" xml:space="preserve">
+    <value>Contacto</value>
+  </data>
+  <data name="iddiassemana" xml:space="preserve">
+    <value>Dias de la semana</value>
+  </data>
+  <data name="idemailounome" xml:space="preserve">
+    <value>correo electrónico o nombre</value>
+  </data>
+  <data name="idemailsadd" xml:space="preserve">
+    <value>Correos electrónicos agregados</value>
+  </data>
+  <data name="idenvioautoemails" xml:space="preserve">
+    <value>Envío automatizado de correos electrónicos</value>
+  </data>
+  <data name="id_avisos_avisoscarga" xml:space="preserve">
+    <value>Aviso de Carga</value>
+  </data>
+  <data name="id_avisos_indicadores" xml:space="preserve">
+    <value>Indicadores</value>
+  </data>
+  <data name="id_avisos_relatorios" xml:space="preserve">
+    <value>Informes</value>
+  </data>
+  <data name="idholdernomematriculaemail" xml:space="preserve">
+    <value>Nombre, registro o correo electrónico</value>
+  </data>
+  <data name="iddiario" xml:space="preserve">
+    <value>Diario</value>
+  </data>
+  <data name="idmensal" xml:space="preserve">
+    <value>Mensual</value>
+  </data>
+  <data name="idquinzenal" xml:space="preserve">
+    <value>Quincenal</value>
+  </data>
+  <data name="idrecorrencia" xml:space="preserve">
+    <value>Reaparición</value>
+  </data>
+  <data name="idsemanal" xml:space="preserve">
+    <value>Semanal</value>
+  </data>
+  <data name="id_avisos_indicadores_gestor" xml:space="preserve">
+    <value>Indicadores de los gerentes</value>
+  </data>
+  <data name="id_avisos_relatorios_gestor" xml:space="preserve">
+    <value>Informes de gerentes</value>
+  </data>
+  <data name="idcompetencia" xml:space="preserve">
+    <value>Habilidade</value>
+  </data>
+  <data name="idobjetivo" xml:space="preserve">
+    <value>Meta</value>
+  </data>
+  <data name="idgratificacoes" xml:space="preserve">
+    <value>Bonificaciones</value>
+  </data>
+  <data name="iddataehora" xml:space="preserve">
+    <value>Fecha y Hora</value>
+  </data>
+  <data name="idpaineleventos" xml:space="preserve">
+    <value>Panel de Eventos</value>
+  </data>
+  <data name="idocorrenciasencontradas" xml:space="preserve">
+    <value>Ocurrencias Encontradas</value>
+  </data>
+  <data name="idgratifica" xml:space="preserve">
+    <value>Bonificaciones</value>
+  </data>
+  <data name="btncriarnovoobjetivo" xml:space="preserve">
+    <value>Crear nuevo objetivo</value>
+  </data>
+  <data name="btnnovosobjetivos" xml:space="preserve">
+    <value>Nuevos objetivos</value>
+  </data>
+  <data name="idcriarobjetivosespecificos" xml:space="preserve">
+    <value>Criar Objetivos Específicos</value>
+  </data>
+  <data name="iddescricaoobjetivo" xml:space="preserve">
+    <value>Descripción del propósito</value>
+  </data>
+  <data name="idpadraogratifica" xml:space="preserve">
+    <value>Estándar de Bonificación</value>
+  </data>
+  <data name="idsalario" xml:space="preserve">
+    <value>Sueldo</value>
+  </data>
+  <data name="idopcoes" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="idautoavaliacao" xml:space="preserve">
+    <value>Autoevaluación</value>
+  </data>
+  <data name="idvisivelcolaborador" xml:space="preserve">
+    <value>Visible para el colaborador</value>
+  </data>
+  <data name="idautoavaliacaogestor" xml:space="preserve">
+    <value>Reseñas de mi gerente</value>
+  </data>
+  <data name="idautoavaliacaominhas" xml:space="preserve">
+    <value>Mis autoevaluaciones</value>
+  </data>
+  <data name="idautosalvasucesso" xml:space="preserve">
+    <value>¡Autoevaluación guardada con éxito!</value>
+  </data>
+  <data name="idcobrapreenchimentoauto" xml:space="preserve">
+    <value>Solicitud de llenado de autoliquidación</value>
+  </data>
+  <data name="idconsideracoesfinais" xml:space="preserve">
+    <value>Consideraciones Finales</value>
+  </data>
+  <data name="idmensagens" xml:space="preserve">
+    <value>Publicaciones</value>
+  </data>
+  <data name="idmodorascunho" xml:space="preserve">
+    <value>Modo Borrador</value>
+  </data>
+  <data name="idrascunho" xml:space="preserve">
+    <value>Bosquejo</value>
+  </data>
+  <data name="idate" xml:space="preserve">
+    <value>Hasta</value>
+  </data>
+  <data name="idmsgnovogestor" xml:space="preserve">
+    <value>Establezca el nuevo administrador temporal y la fecha de finalización de la administración.</value>
+  </data>
+  <data name="idnovogestor" xml:space="preserve">
+    <value>Nuevo Gerente</value>
+  </data>
+  <data name="idprocessoconcluido" xml:space="preserve">
+    <value>¡Proceso completado con éxito!</value>
+  </data>
+  <data name="idselecionecolaborador" xml:space="preserve">
+    <value>Seleccione al menos un empleado para cambiar la gestión.</value>
+  </data>
+  <data name="idselecionegestor" xml:space="preserve">
+    <value>¡Seleccione una gerente valido!</value>
+  </data>
+  <data name="btndefinirgestaotemp" xml:space="preserve">
+    <value>Definir Gestión Temporal</value>
+  </data>
+  <data name="btnenviopadassinado" xml:space="preserve">
+    <value>Envío de PED firmado</value>
+  </data>
+  <data name="btnpadassinadodown" xml:space="preserve">
+    <value>Descarga de PED firmada</value>
+  </data>
+  <data name="btnselarqvalido" xml:space="preserve">
+    <value>PED firmado</value>
+  </data>
+  <data name="idselarquivodesejado" xml:space="preserve">
+    <value>Seleccione el archivo deseado</value>
+  </data>
+  <data name="idconsideracoes" xml:space="preserve">
+    <value>Consideraciones</value>
+  </data>
+  <data name="idmeucargonaoestanalista" xml:space="preserve">
+    <value>Mi trabajo no esta en la lista</value>
+  </data>
+  <data name="idnovocargo" xml:space="preserve">
+    <value>Nueva Posición</value>
+  </data>
+  <data name="idassinar" xml:space="preserve">
+    <value>Firmar</value>
+  </data>
+  <data name="idbiometria" xml:space="preserve">
+    <value>Colección biométrica</value>
+  </data>
+  <data name="idbiometriaeroo" xml:space="preserve">
+    <value>Lo sentimos, su aplicación de colector no se está ejecutando</value>
+  </data>
+  <data name="idfinalizarretornar" xml:space="preserve">
+    <value>Terminar y volver</value>
+  </data>
+  <data name="idmsgbiometria" xml:space="preserve">
+    <value>¡Por favor, ponga su dedo en el enfriador digital y espere!</value>
+  </data>
+  <data name="idnovabiometria" xml:space="preserve">
+    <value>Nueva biometría</value>
+  </data>
+  <data name="idresultbiometria" xml:space="preserve">
+    <value>Resultado de la recogida biométrica</value>
+  </data>
+  <data name="idsembiometria" xml:space="preserve">
+    <value>¡El empleado no tiene datos biométricos registrados!</value>
+  </data>
+  <data name="idduasbiometrias" xml:space="preserve">
+    <value>(Incluya dos o más huellas dactilares para cada colaborador)</value>
+  </data>
+  <data name="ididentidadevisualPAD" xml:space="preserve">
+    <value>Identidad visual de PED</value>
+  </data>
+  <data name="idimagemcapa" xml:space="preserve">
+    <value>Imagen de portada</value>
+  </data>
+  <data name="idimagemrodape" xml:space="preserve">
+    <value>Imagen de pie de página</value>
+  </data>
+  <data name="idmodelo01" xml:space="preserve">
+    <value>Modelo 1</value>
+  </data>
+  <data name="idmodelo02" xml:space="preserve">
+    <value>Modelo 2</value>
+  </data>
+  <data name="idpadraoimpressaoPAD" xml:space="preserve">
+    <value>Patrón de impresión</value>
+  </data>
+</root>

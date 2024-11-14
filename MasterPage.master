@@ -1,0 +1,98 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="restrito_MasterPage" %>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head runat="server">
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Padaria Pralis</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css">
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+        :root {
+            --cor-fundo-pagina: #282828;
+            --brilho-borda: 0 0 5px #ffffff9e;
+        }
+
+        body {
+            min-height: 100%;
+            margin: 0;
+            background-color: var(--cor-fundo-pagina);
+            transition: background-color 1s ease;
+        }
+
+        nav, footer {
+            background-color: rgb(0,0,0,0.2);
+        }
+
+        .logo {
+            max-height: 4rem;
+        }
+
+        .conteudo {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        footer {
+            height: 3rem;
+            color: white;
+            font-family: "Unbounded", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 800;
+        }
+
+        .btn:active {
+            color: var(--cor-fundo-pagina) !important;
+            box-shadow: var(--brilho-borda);
+        }
+    </style>
+    <link rel="preload" href="https://fonts.gstatic.com/s/materialsymbolsoutlined/v59/kJF1BMA_Hphd4URlFxZp9iM4ZvHgDXM2T05PXw.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+
+</head>
+
+<body class="">
+    <form id="form1" runat="server" enctype="MULTIPART/FORM-DATA">
+
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnablePageMethods="True" EnablePartialRendering="true">
+        </asp:ScriptManager>
+        <asp:Panel ID="panelprincipal" runat="server">
+
+            <div class="container-fluid p-0 conteudo">
+                <header class="container-fluid p-0">
+                    <nav class="navbar-brand d-flex justify-content-center" role="navigation">
+                        <asp:Image CssClass="logo" runat="server" ImageUrl="~/assets/img/logo - b.png"></asp:Image>
+                    </nav>
+                </header>
+
+                <div class="flex-grow-1 d-flex align-items-center" style="margin: 0 !important;">
+                    <section class="content container-fluid p-0">
+
+                        <asp:ContentPlaceHolder ID="Conteudo" runat="server">
+                        </asp:ContentPlaceHolder>
+
+                    </section>
+                </div>
+
+                <footer class="container-fluid p-0 d-flex justify-content-center align-items-center footer">
+                    CYCLUZ
+                </footer>
+            </div>
+
+        </asp:Panel>
+    </form>
+</body>
+</html>

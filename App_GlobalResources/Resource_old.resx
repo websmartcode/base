@@ -1,0 +1,1245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="home_botaosair" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="home_saudacao" xml:space="preserve">
+    <value>Bem vindo</value>
+  </data>
+  <data name="idbairro" xml:space="preserve">
+    <value>Bairro</value>
+  </data>
+  <data name="idcadastrar" xml:space="preserve">
+    <value>Cadastrar</value>
+  </data>
+  <data name="idCargo" xml:space="preserve">
+    <value>Cargo</value>
+  </data>
+  <data name="idCelular" xml:space="preserve">
+    <value>Celular</value>
+  </data>
+  <data name="idcep" xml:space="preserve">
+    <value>CEP</value>
+  </data>
+  <data name="idcidade" xml:space="preserve">
+    <value>Cidade</value>
+  </data>
+  <data name="idcliente" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="idcnpj" xml:space="preserve">
+    <value>CNPJ</value>
+  </data>
+  <data name="idcodigo" xml:space="preserve">
+    <value>Código</value>
+  </data>
+  <data name="idCodigocliente" xml:space="preserve">
+    <value>Código cliente</value>
+  </data>
+  <data name="idconsulta" xml:space="preserve">
+    <value>Consulta</value>
+  </data>
+  <data name="idContatos" xml:space="preserve">
+    <value>Contatos</value>
+  </data>
+  <data name="idcontrato" xml:space="preserve">
+    <value>Contrato</value>
+  </data>
+  <data name="iddadoscadastrais" xml:space="preserve">
+    <value> Dados Cadastrais</value>
+  </data>
+  <data name="idDatafinal" xml:space="preserve">
+    <value>Data final</value>
+  </data>
+  <data name="idDatainicial" xml:space="preserve">
+    <value>Data inicial</value>
+  </data>
+  <data name="iddescricao" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="idemail" xml:space="preserve">
+    <value>E-mail</value>
+  </data>
+  <data name="idEndereco" xml:space="preserve">
+    <value>Endereço</value>
+  </data>
+  <data name="idenviorelatorioativo" xml:space="preserve">
+    <value>Envio do relatório ativo</value>
+  </data>
+  <data name="idEnviorelatóriopausado" xml:space="preserve">
+    <value>Envio do relatório pausado.</value>
+  </data>
+  <data name="idestado" xml:space="preserve">
+    <value>UF</value>
+  </data>
+  <data name="idfilial" xml:space="preserve">
+    <value>Filial</value>
+  </data>
+  <data name="idGraficoevolutivo" xml:space="preserve">
+    <value>Gráfico evolutivo</value>
+  </data>
+  <data name="idGrupo" xml:space="preserve">
+    <value>Grupo</value>
+  </data>
+  <data name="idinfocliente" xml:space="preserve">
+    <value>Clique no botão novo cliente para liberar os campos e fazer um novo cadastro</value>
+  </data>
+  <data name="idlegendagrupo" xml:space="preserve">
+    <value>Informe o nome do grupo</value>
+  </data>
+  <data name="idlegendarelatorioativo" xml:space="preserve">
+    <value>Os e-mails pausados voltaram a receber os Relatórios.</value>
+  </data>
+  <data name="idlegendarelatoriopause" xml:space="preserve">
+    <value>Os e-mails que forem pausados não receberam os relatórios</value>
+  </data>
+  <data name="idligacao" xml:space="preserve">
+    <value>Ligação</value>
+  </data>
+  <data name="idLigacaoGeral" xml:space="preserve">
+    <value>Ligações Geral</value>
+  </data>
+  <data name="idligacaomotivo" xml:space="preserve">
+    <value>Ligações Por Motivos</value>
+  </data>
+  <data name="idligacaoprofissional" xml:space="preserve">
+    <value>Ligações Por Profissional</value>
+  </data>
+  <data name="idligacaostatus" xml:space="preserve">
+    <value>Ligações Por Status</value>
+  </data>
+  <data name="idLocalizarLigação" xml:space="preserve">
+    <value>Localizar Ligação</value>
+  </data>
+  <data name="idmotivo" xml:space="preserve">
+    <value>Motivo</value>
+  </data>
+  <data name="idnome" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="idNumeroproposta" xml:space="preserve">
+    <value>Numero da proposta</value>
+  </data>
+  <data name="idobs" xml:space="preserve">
+    <value>Obs</value>
+  </data>
+  <data name="idObservacao" xml:space="preserve">
+    <value>Observações</value>
+  </data>
+  <data name="idorigem" xml:space="preserve">
+    <value>Origem</value>
+  </data>
+  <data name="idOrigemligações" xml:space="preserve">
+    <value>Origem das ligações</value>
+  </data>
+  <data name="idOutros" xml:space="preserve">
+    <value>Outros</value>
+  </data>
+  <data name="idpaginaselecionada" xml:space="preserve">
+    <value>Pagina selecionada</value>
+  </data>
+  <data name="idPais" xml:space="preserve">
+    <value>Pais</value>
+  </data>
+  <data name="idPefil" xml:space="preserve">
+    <value>Pefil</value>
+  </data>
+  <data name="idPeríodo" xml:space="preserve">
+    <value>Período</value>
+  </data>
+  <data name="idProfissional" xml:space="preserve">
+    <value>Profissional</value>
+  </data>
+  <data name="idProtocolo" xml:space="preserve">
+    <value>Protocolo</value>
+  </data>
+  <data name="idregiaocad" xml:space="preserve">
+    <value>Cadastrar Região</value>
+  </data>
+  <data name="idsenha" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="idSigla" xml:space="preserve">
+    <value>Sigla</value>
+  </data>
+  <data name="idsituacao" xml:space="preserve">
+    <value>Situação</value>
+  </data>
+  <data name="idsubtitlerelatorio" xml:space="preserve">
+    <value>Este relatório tem como objetivo informar a movimentação das ligações, entradas por usuário, Status, Motivos, etc... Tudo para que possa acompanhar e ter um plano de ação. Onde investir mais ou onde temos maior resultado negativo.</value>
+  </data>
+  <data name="idTelefone" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="idTelefone2" xml:space="preserve">
+    <value>Telefone 2</value>
+  </data>
+  <data name="idtipo" xml:space="preserve">
+    <value>Tipo</value>
+  </data>
+  <data name="Idtitleaddcontato" xml:space="preserve">
+    <value>Adicione os contatos da empresa.</value>
+  </data>
+  <data name="idtitleconfigrelatorio" xml:space="preserve">
+    <value>Configuração do relatorio</value>
+  </data>
+  <data name="idtitlegrupo" xml:space="preserve">
+    <value>Cadastros de Grupo</value>
+  </data>
+  <data name="idtitlerelatorio" xml:space="preserve">
+    <value>Relatório Geral</value>
+  </data>
+  <data name="idtitleusuarios" xml:space="preserve">
+    <value>Clique no botão novo e preencha os campos a baixo para criar novo usuário.</value>
+  </data>
+  <data name="idtitleusuarioscadastrados" xml:space="preserve">
+    <value>Lista de todos os usuários Cadastrados.</value>
+  </data>
+  <data name="idtotalregistro" xml:space="preserve">
+    <value>Total de Registros encontratodos:</value>
+  </data>
+  <data name="idultimaobs" xml:space="preserve">
+    <value>Ultima observações</value>
+  </data>
+  <data name="idusuario" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="idusuarioorigem" xml:space="preserve">
+    <value>Usuário origem</value>
+  </data>
+  <data name="idusuarios" xml:space="preserve">
+    <value>Usuário</value>
+  </data>
+  <data name="idusuariosdestino" xml:space="preserve">
+    <value>Usuário de destino</value>
+  </data>
+  <data name="menu_acompanhamento" xml:space="preserve">
+    <value>Acompanhamento</value>
+  </data>
+  <data name="Menu_Cadastros" xml:space="preserve">
+    <value>Cadastros</value>
+  </data>
+  <data name="Menu_Controles" xml:space="preserve">
+    <value>Controles</value>
+  </data>
+  <data name="Menu_Ligacoes" xml:space="preserve">
+    <value>Ligações</value>
+  </data>
+  <data name="Menu_Principal" xml:space="preserve">
+    <value>Principal</value>
+  </data>
+  <data name="menu_relatorios" xml:space="preserve">
+    <value>Relatórios</value>
+  </data>
+  <data name="mes_Abril" xml:space="preserve">
+    <value>Abril</value>
+  </data>
+  <data name="mes_Agosto" xml:space="preserve">
+    <value>Agosto</value>
+  </data>
+  <data name="mes_Dezembro" xml:space="preserve">
+    <value>Dezembro</value>
+  </data>
+  <data name="mes_Fevereiro" xml:space="preserve">
+    <value>Fevereiro</value>
+  </data>
+  <data name="mes_janeiro" xml:space="preserve">
+    <value>Janeiro</value>
+  </data>
+  <data name="mes_Julho" xml:space="preserve">
+    <value>Julho</value>
+  </data>
+  <data name="mes_Junho" xml:space="preserve">
+    <value>Junho</value>
+  </data>
+  <data name="mes_Maio" xml:space="preserve">
+    <value>Maio</value>
+  </data>
+  <data name="mes_Marco" xml:space="preserve">
+    <value>Março</value>
+  </data>
+  <data name="mes_Novembro" xml:space="preserve">
+    <value>Novembro</value>
+  </data>
+  <data name="mes_Outubro" xml:space="preserve">
+    <value>Outubro</value>
+  </data>
+  <data name="Semana_quarta" xml:space="preserve">
+    <value>Quarta-feira</value>
+  </data>
+  <data name="Semana_quinta" xml:space="preserve">
+    <value>Quinta-feira</value>
+  </data>
+  <data name="semana_segunda" xml:space="preserve">
+    <value>Segunda-feira</value>
+  </data>
+  <data name="semana_terca" xml:space="preserve">
+    <value>Terça-feira</value>
+  </data>
+  <data name="semanda_domingo" xml:space="preserve">
+    <value>Domingo</value>
+  </data>
+  <data name="semna_sexta" xml:space="preserve">
+    <value>Sexta-feira</value>
+  </data>
+  <data name="Setembro" xml:space="preserve">
+    <value>Setembro</value>
+  </data>
+  <data name="Statusligações" xml:space="preserve">
+    <value>Status das Ligações</value>
+  </data>
+  <data name="Submenu_clientes" xml:space="preserve">
+    <value>Cadastro de clientes</value>
+  </data>
+  <data name="Submenu_Encaminhar" xml:space="preserve">
+    <value>Encaminhar ligações</value>
+  </data>
+  <data name="Submenu_filiais" xml:space="preserve">
+    <value>Cadastro de filiais</value>
+  </data>
+  <data name="Submenu_Importar" xml:space="preserve">
+    <value>Importar Excel</value>
+  </data>
+  <data name="Submenu_motivos" xml:space="preserve">
+    <value>Cadastro de motivos</value>
+  </data>
+  <data name="Submenu_regioes" xml:space="preserve">
+    <value>Cadastro de regiões</value>
+  </data>
+  <data name="submenu_relatorioagendamento" xml:space="preserve">
+    <value>Relatório de agendamentos</value>
+  </data>
+  <data name="submenu_relatorioconfigurar" xml:space="preserve">
+    <value>Configurar envio automático</value>
+  </data>
+  <data name="submenu_relatorioempresas" xml:space="preserve">
+    <value>Novas empresas incluídas</value>
+  </data>
+  <data name="submenu_relatorioencaminhamento" xml:space="preserve">
+    <value>Relatório de encaminhamentos</value>
+  </data>
+  <data name="submenu_relatoriografico" xml:space="preserve">
+    <value>Gráficos</value>
+  </data>
+  <data name="submenu_relatoriostatus" xml:space="preserve">
+    <value>Ligações feitas por status</value>
+  </data>
+  <data name="Submenu_status" xml:space="preserve">
+    <value>Cadastro de status</value>
+  </data>
+  <data name="submenu_usuarios" xml:space="preserve">
+    <value>Cadastro de usuários</value>
+  </data>
+  <data name="titleimportacao" xml:space="preserve">
+    <value>Importando clientes para ligação</value>
+  </data>
+  <data name="vwcliente_info" xml:space="preserve">
+    <value>Pode informa algum dos campos ao lado ou deixar vazio para trazer todos os clientes cadastrados</value>
+  </data>
+  <data name="configurarrelatorio" xml:space="preserve">
+    <value>Configuração do relatorio</value>
+  </data>
+  <data name="idaguardefinalizacao" xml:space="preserve">
+    <value>Por favor aguarde a finalização...</value>
+  </data>
+  <data name="idAprovada" xml:space="preserve">
+    <value>Aprovada</value>
+  </data>
+  <data name="idAprovadaMes" xml:space="preserve">
+    <value>Aprovada Mês</value>
+  </data>
+  <data name="idBenchmark" xml:space="preserve">
+    <value>Benchmark</value>
+  </data>
+  <data name="idcampoobrigatorio" xml:space="preserve">
+    <value>* Campo obrigatório</value>
+  </data>
+  <data name="idCancelado" xml:space="preserve">
+    <value>Cancelado</value>
+  </data>
+  <data name="idCodigoInterface" xml:space="preserve">
+    <value>Codigo Interface</value>
+  </data>
+  <data name="idcodigoporto" xml:space="preserve">
+    <value>Código do Porto</value>
+  </data>
+  <data name="idembarque" xml:space="preserve">
+    <value>Embarque</value>
+  </data>
+  <data name="idEnviargrafivosconverencia" xml:space="preserve">
+    <value>Enviar todos para o e-mail abaixo(Conferencia)</value>
+  </data>
+  <data name="idenviorelatorioativoinfo" xml:space="preserve">
+    <value>Os e-mails pausados voltaram a receber os Relatórios</value>
+  </data>
+  <data name="idenviorelatoriopausadoinfo" xml:space="preserve">
+    <value>Os e-mails que forem pausados não receberam os relatórios</value>
+  </data>
+  <data name="idficha" xml:space="preserve">
+    <value>Ficha</value>
+  </data>
+  <data name="idhistorico" xml:space="preserve">
+    <value>Histórico</value>
+  </data>
+  <data name="idmensagem_meusembarques1" xml:space="preserve">
+    <value>Atenção: identificamos</value>
+  </data>
+  <data name="idmensagem_meusembarques2" xml:space="preserve">
+    <value>propostas pendentes que irão vencer até o dia</value>
+  </data>
+  <data name="idmetamodalaprovada" xml:space="preserve">
+    <value>Meta Prop Aprovadas</value>
+  </data>
+  <data name="idnomepais" xml:space="preserve">
+    <value>Nome do País</value>
+  </data>
+  <data name="idOrdem" xml:space="preserve">
+    <value>orden</value>
+  </data>
+  <data name="idPendente" xml:space="preserve">
+    <value>Pendente</value>
+  </data>
+  <data name="idPerdida" xml:space="preserve">
+    <value>Perdida</value>
+  </data>
+  <data name="idPerdidaMes" xml:space="preserve">
+    <value>Perdida Mês</value>
+  </data>
+  <data name="idPreco" xml:space="preserve">
+    <value>Preço</value>
+  </data>
+  <data name="idpropostasemitidasmodal" xml:space="preserve">
+    <value>% Propostas Emitidas por Modal</value>
+  </data>
+  <data name="idresumopropostas" xml:space="preserve">
+    <value>Resumo das propostas</value>
+  </data>
+  <data name="idshipment" xml:space="preserve">
+    <value>Shipment</value>
+  </data>
+  <data name="idStatusproposta" xml:space="preserve">
+    <value>Status das proposta</value>
+  </data>
+  <data name="idTaxasnoDestino" xml:space="preserve">
+    <value>Taxas no Destino</value>
+  </data>
+  <data name="idTaxasorigem" xml:space="preserve">
+    <value>Taxas na Origem</value>
+  </data>
+  <data name="idtexto" xml:space="preserve">
+    <value>Texto</value>
+  </data>
+  <data name="idTipotaxa" xml:space="preserve">
+    <value>Tipo de taxa</value>
+  </data>
+  <data name="idtitulo" xml:space="preserve">
+    <value>Título</value>
+  </data>
+  <data name="idTotalAprovada" xml:space="preserve">
+    <value>Total Aprovada</value>
+  </data>
+  <data name="idTotalPendente" xml:space="preserve">
+    <value>Total Pendente</value>
+  </data>
+  <data name="idTotalPerdida" xml:space="preserve">
+    <value>Total Perdida</value>
+  </data>
+  <data name="idversao" xml:space="preserve">
+    <value>Versão</value>
+  </data>
+  <data name="info_clientes" xml:space="preserve">
+    <value>Clique no botão novo cliente para liberar os campos e fazer um novo cadastro</value>
+  </data>
+  <data name="Menu_criarpropostas" xml:space="preserve">
+    <value>Criar Proposta</value>
+  </data>
+  <data name="Submenu_aeroportos" xml:space="preserve">
+    <value>Aeroportos</value>
+  </data>
+  <data name="Submenu_excel" xml:space="preserve">
+    <value>Excel</value>
+  </data>
+  <data name="SubMenu_itensFixos" xml:space="preserve">
+    <value>Itens Fixos</value>
+  </data>
+  <data name="submenu_meusembarques" xml:space="preserve">
+    <value>Meus Embarques</value>
+  </data>
+  <data name="Submenu_moeda" xml:space="preserve">
+    <value>Moeda</value>
+  </data>
+  <data name="Submenu_portos" xml:space="preserve">
+    <value>Portos</value>
+  </data>
+  <data name="Submenu_taxas" xml:space="preserve">
+    <value>Taxas(Origem e Destino)</value>
+  </data>
+  <data name="subtitle_adicionarempresa" xml:space="preserve">
+    <value>Adicione os contatos da empresa.</value>
+  </data>
+  <data name="subtitle_aeroportocad" xml:space="preserve">
+    <value>Informe a descrição do aeroporto  ou pais e clique em localizar.Descrição</value>
+  </data>
+  <data name="subtitle_graficos" xml:space="preserve">
+    <value>Informe a o período que deseja visualizar no gráfico, todos os gráficos de acordo com o período informado.</value>
+  </data>
+  <data name="subtitle_itensfixos" xml:space="preserve">
+    <value>Cadastrar, remover ou alterar os termos das propostas, caso precise copiar ou colar verifique alguns símbolos que pode não funcionar na versão web.</value>
+  </data>
+  <data name="subtitle_itensfixoscad" xml:space="preserve">
+    <value>Lista completa dos itens cadastrados.</value>
+  </data>
+  <data name="subtitle_portocad" xml:space="preserve">
+    <value>Informe a descrição do porto ou pais e clique em localizar.</value>
+  </data>
+  <data name="title_aeroporto" xml:space="preserve">
+    <value>Cadastro de Aeroportos</value>
+  </data>
+  <data name="title_aeroportocad" xml:space="preserve">
+    <value>consulta de Aeroportos</value>
+  </data>
+  <data name="title_filial" xml:space="preserve">
+    <value>Cadastro de Filial</value>
+  </data>
+  <data name="title_graficos" xml:space="preserve">
+    <value>Visão Geral Propostas Mês.</value>
+  </data>
+  <data name="title_itensfixos" xml:space="preserve">
+    <value>Gerenciamento dos itens fixos (termos e condições).</value>
+  </data>
+  <data name="title_moeda" xml:space="preserve">
+    <value>Cadastro de Moedas</value>
+  </data>
+  <data name="title_porto" xml:space="preserve">
+    <value>Cadastro de Portos</value>
+  </data>
+  <data name="title_portocad" xml:space="preserve">
+    <value>Consulta de Portos</value>
+  </data>
+  <data name="title_taxas" xml:space="preserve">
+    <value>Cadastro de Taxas na Origem</value>
+  </data>
+  <data name="btnsalvar" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="idcpf" xml:space="preserve">
+    <value>CPF</value>
+  </data>
+  <data name="btnabrir" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="btnabrirproposta" xml:space="preserve">
+    <value>Abrir Proposta</value>
+  </data>
+  <data name="btnconsultar" xml:space="preserve">
+    <value>Consultar </value>
+  </data>
+  <data name="btnexportar" xml:space="preserve">
+    <value>Exportar excel</value>
+  </data>
+  <data name="btnlocalizar" xml:space="preserve">
+    <value>Localizar</value>
+  </data>
+  <data name="btnlogar" xml:space="preserve">
+    <value>Logar</value>
+  </data>
+  <data name="btnabrirselecionado" xml:space="preserve">
+    <value>Abrir selecionado</value>
+  </data>
+  <data name="btnbuscar" xml:space="preserve">
+    <value>Buscar</value>
+  </data>
+  <data name="btncadastrarnovo" xml:space="preserve">
+    <value>Cadastrar Novo</value>
+  </data>
+  <data name="btncarregar" xml:space="preserve">
+    <value>Carregar</value>
+  </data>
+  <data name="btncriarevisao" xml:space="preserve">
+    <value>Criar Revisão </value>
+  </data>
+  <data name="btnexcluir" xml:space="preserve">
+    <value>Excluir</value>
+  </data>
+  <data name="btnexcuirselecionado" xml:space="preserve">
+    <value>Excluir Selecionado</value>
+  </data>
+  <data name="btnexportarexcel" xml:space="preserve">
+    <value>Exportar Excel</value>
+  </data>
+  <data name="btnnovo" xml:space="preserve">
+    <value>Novo</value>
+  </data>
+  <data name="btnreativar" xml:space="preserve">
+    <value>Reativar</value>
+  </data>
+  <data name="btnreativarselecionado" xml:space="preserve">
+    <value>Reativar Selecionado</value>
+  </data>
+  <data name="btnselecionartodos" xml:space="preserve">
+    <value>Selecionar todos</value>
+  </data>
+  <data name="idambos" xml:space="preserve">
+    <value>Ambos</value>
+  </data>
+  <data name="idativo" xml:space="preserve">
+    <value>Ativo</value>
+  </data>
+  <data name="idComentarios" xml:space="preserve">
+    <value>Comentários</value>
+  </data>
+  <data name="idconsultaAeroportos" xml:space="preserve">
+    <value>consulta de Aeroportos</value>
+  </data>
+  <data name="idCustomer" xml:space="preserve">
+    <value>Customer</value>
+  </data>
+  <data name="idDataEmissao" xml:space="preserve">
+    <value>Data de Emissão</value>
+  </data>
+  <data name="idDataFechamento" xml:space="preserve">
+    <value>Data Fechamento</value>
+  </data>
+  <data name="idDatasolicitacao" xml:space="preserve">
+    <value>Data de solicitação</value>
+  </data>
+  <data name="idDataVencimento" xml:space="preserve">
+    <value>Data de Vencimento</value>
+  </data>
+  <data name="iddestination" xml:space="preserve">
+    <value>Destino</value>
+  </data>
+  <data name="idFrequencia" xml:space="preserve">
+    <value>Frequencia</value>
+  </data>
+  <data name="idFrete" xml:space="preserve">
+    <value>Frete</value>
+  </data>
+  <data name="idFreteCompra" xml:space="preserve">
+    <value>Frete Compra</value>
+  </data>
+  <data name="idinativo" xml:space="preserve">
+    <value>Inativo</value>
+  </data>
+  <data name="idIncoterm" xml:space="preserve">
+    <value>Incoterm</value>
+  </data>
+  <data name="idInfStatus" xml:space="preserve">
+    <value>Inf Status</value>
+  </data>
+  <data name="idInsidesales" xml:space="preserve">
+    <value>Inside sales</value>
+  </data>
+  <data name="idOrigin" xml:space="preserve">
+    <value>Origin</value>
+  </data>
+  <data name="idproduto" xml:space="preserve">
+    <value>Produto</value>
+  </data>
+  <data name="idQuantidadeTEUS" xml:space="preserve">
+    <value>Quantidade de TEUS</value>
+  </data>
+  <data name="idRegiao" xml:space="preserve">
+    <value>Região</value>
+  </data>
+  <data name="idRota" xml:space="preserve">
+    <value>Rota</value>
+  </data>
+  <data name="idSalesRep" xml:space="preserve">
+    <value>Sales Rep.</value>
+  </data>
+  <data name="idSecurity" xml:space="preserve">
+    <value>Security</value>
+  </data>
+  <data name="idSecurityCompra" xml:space="preserve">
+    <value>Security Compra</value>
+  </data>
+  <data name="idservico" xml:space="preserve">
+    <value>Serviço</value>
+  </data>
+  <data name="idSituacaoCliente" xml:space="preserve">
+    <value>Situação do Cliente</value>
+  </data>
+  <data name="idStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="idTipoEquipamento" xml:space="preserve">
+    <value>Tipo de Equipamento</value>
+  </data>
+  <data name="idTotalGR" xml:space="preserve">
+    <value>Total GR</value>
+  </data>
+  <data name="idTotalNR" xml:space="preserve">
+    <value>Total NR</value>
+  </data>
+  <data name="idUsuarioCompra" xml:space="preserve">
+    <value>Usuário Compra</value>
+  </data>
+  <data name="idvendedor" xml:space="preserve">
+    <value>vendedor</value>
+  </data>
+  <data name="btnaddtodastaxas" xml:space="preserve">
+    <value>Adicionar todas as taxas</value>
+  </data>
+  <data name="btnadicionar" xml:space="preserve">
+    <value>Adicionar</value>
+  </data>
+  <data name="btncriarevisao" xml:space="preserve">
+    <value>Criar Revisão</value>
+  </data>
+  <data name="btnduplicar" xml:space="preserve">
+    <value>Duplicar</value>
+  </data>
+  <data name="btnfinalizar" xml:space="preserve">
+    <value>Finalizar</value>
+  </data>
+  <data name="btnimprimir" xml:space="preserve">
+    <value>Imprimir</value>
+  </data>
+  <data name="btnnovaproposta" xml:space="preserve">
+    <value>Criar Nova Proposta</value>
+  </data>
+  <data name="idcampoobritarioalerta" xml:space="preserve">
+    <value>Atenção: Preencher os campos obrigatórios(*)</value>
+  </data>
+  <data name="idcevabrasil" xml:space="preserve">
+    <value>(CEVA Brasil)</value>
+  </data>
+  <data name="idCIFValue" xml:space="preserve">
+    <value>CIF Value</value>
+  </data>
+  <data name="idcontato" xml:space="preserve">
+    <value>Contato</value>
+  </data>
+  <data name="iddata" xml:space="preserve">
+    <value>Data</value>
+  </data>
+  <data name="iddataenvio" xml:space="preserve">
+    <value>Data de envio</value>
+  </data>
+  <data name="iddatavalidade" xml:space="preserve">
+    <value>Validade</value>
+  </data>
+  <data name="idDepartamento" xml:space="preserve">
+    <value>Departamento</value>
+  </data>
+  <data name="idDesembaraco" xml:space="preserve">
+    <value>Desembaraço</value>
+  </data>
+  <data name="idDESPESASNAORIGEM" xml:space="preserve">
+    <value>DESPESAS NA ORIGEM</value>
+  </data>
+  <data name="idDESPESASNODESTINO" xml:space="preserve">
+    <value>DESPESAS NO DESTINO</value>
+  </data>
+  <data name="iddimensao" xml:space="preserve">
+    <value>Dimensões</value>
+  </data>
+  <data name="idenderecodeorigem" xml:space="preserve">
+    <value>Endereço de Origem</value>
+  </data>
+  <data name="idFRETEINTERNACIONAL" xml:space="preserve">
+    <value>FRETE INTERNACIONAL</value>
+  </data>
+  <data name="idinfodimensao" xml:space="preserve">
+    <value>Comprimento\Largura\Altura</value>
+  </data>
+  <data name="idInformacoesCompra" xml:space="preserve">
+    <value>Informações da Compra</value>
+  </data>
+  <data name="idmensagemfrete1" xml:space="preserve">
+    <value>Os campos abaixo em Cinza claro</value>
+  </data>
+  <data name="idmensagemfrete2" xml:space="preserve">
+    <value>são para preenchimento da compra, as informações dos campos não sairá no PDF nem será enviado para o cliente.</value>
+  </data>
+  <data name="idMercadoria" xml:space="preserve">
+    <value>Mercadoria</value>
+  </data>
+  <data name="idmoeda" xml:space="preserve">
+    <value>Moeda</value>
+  </data>
+  <data name="idNomecompleto" xml:space="preserve">
+    <value>Nome completo</value>
+  </data>
+  <data name="idNometransportadora" xml:space="preserve">
+    <value>Nome transportadora</value>
+  </data>
+  <data name="idPesoBase" xml:space="preserve">
+    <value>Peso Base</value>
+  </data>
+  <data name="idpesobruto" xml:space="preserve">
+    <value>Peso Bruto</value>
+  </data>
+  <data name="idPesoCubado" xml:space="preserve">
+    <value>Peso Cubado</value>
+  </data>
+  <data name="idSeguroInternacional" xml:space="preserve">
+    <value>Seguro Internacional</value>
+  </data>
+  <data name="idSelecioneoaeroporto" xml:space="preserve">
+    <value>Selecione o aeroporto</value>
+  </data>
+  <data name="idTermoseCondicoes" xml:space="preserve">
+    <value>Termos e Condições</value>
+  </data>
+  <data name="idtipocliente" xml:space="preserve">
+    <value>Tipo de Cliente</value>
+  </data>
+  <data name="idTotaldeitensnaorigem" xml:space="preserve">
+    <value>Total de itens na origem:</value>
+  </data>
+  <data name="idTotalitensnoDestino" xml:space="preserve">
+    <value>Total de itens no Destino:</value>
+  </data>
+  <data name="idtransportebrasil" xml:space="preserve">
+    <value>Transporte Interno Brasil</value>
+  </data>
+  <data name="idusointerno" xml:space="preserve">
+    <value>(uso interno)</value>
+  </data>
+  <data name="idValordaNotaFiscal" xml:space="preserve">
+    <value>Valor da Nota Fiscal</value>
+  </data>
+  <data name="idValorKG" xml:space="preserve">
+    <value>KG -%</value>
+  </data>
+  <data name="idValorMercadoria" xml:space="preserve">
+    <value>Valor Mercadoria</value>
+  </data>
+  <data name="idValorMinino" xml:space="preserve">
+    <value>Valor Minino:</value>
+  </data>
+  <data name="idValorMininofixo" xml:space="preserve">
+    <value>Valor Minino/Fixo</value>
+  </data>
+  <data name="idValorTotalEstimado" xml:space="preserve">
+    <value>Valor Total Estimado</value>
+  </data>
+  <data name="idValortotaldofreteInternacional" xml:space="preserve">
+    <value>Valot total do frete Internacional</value>
+  </data>
+  <data name="idvendedorresponsavel" xml:space="preserve">
+    <value>Vendedor Responsável</value>
+  </data>
+  <data name="idVolumes" xml:space="preserve">
+    <value>Volumes</value>
+  </data>
+  <data name="infomoeda" xml:space="preserve">
+    <value>Sempre a mesma moeda do frete</value>
+  </data>
+  <data name="btncarregarresumo" xml:space="preserve">
+    <value>Carregar Resumo</value>
+  </data>
+  <data name="btnenviarrelatoriofilial" xml:space="preserve">
+    <value>Enviar Relátorio por Filial</value>
+  </data>
+  <data name="btnimprimirpdf" xml:space="preserve">
+    <value>Imprimir relatorio em PDF</value>
+  </data>
+  <data name="idDesembaracoceva" xml:space="preserve">
+    <value>Desembaraço (CEVA)</value>
+  </data>
+  <data name="iddestino" xml:space="preserve">
+    <value>Destino</value>
+  </data>
+  <data name="idfreteminimo" xml:space="preserve">
+    <value>Frete Minimo</value>
+  </data>
+  <data name="idimprimirvalorcompra" xml:space="preserve">
+    <value>Imprimir com Valor de Compra</value>
+  </data>
+  <data name="idmensagem" xml:space="preserve">
+    <value>Mensagem</value>
+  </data>
+  <data name="idseguroceva" xml:space="preserve">
+    <value>Seguro (CEVA)</value>
+  </data>
+  <data name="idtotal" xml:space="preserve">
+    <value>Total</value>
+  </data>
+  <data name="idTotalPropostasAprovadas" xml:space="preserve">
+    <value>Total Propostas Aprovadas</value>
+  </data>
+  <data name="idTotalPropostasEmitidas" xml:space="preserve">
+    <value>Total de Propostas  Emitidas</value>
+  </data>
+  <data name="idTotalPropostasPerdidas" xml:space="preserve">
+    <value>Total Propostas Perdidas</value>
+  </data>
+  <data name="idValorCIF" xml:space="preserve">
+    <value>Valor CIF</value>
+  </data>
+  <data name="idValortotaldastaxasdedestino" xml:space="preserve">
+    <value>Valor total das taxas de destino</value>
+  </data>
+  <data name="idValortotaldastaxasdeOrigem" xml:space="preserve">
+    <value>Valor total das taxas de Origem</value>
+  </data>
+  <data name="idVisaoGeralStatus" xml:space="preserve">
+    <value>Visão Geral Status</value>
+  </data>
+  <data name="idVisaoGeralStatusClientes" xml:space="preserve">
+    <value>Visão Geral Status Clientes</value>
+  </data>
+  <data name="idVisãoGeralPerdidas" xml:space="preserve">
+    <value>Visão Geral Perdidas</value>
+  </data>
+  <data name="infototalestimado" xml:space="preserve">
+    <value>* O valor total é uma estimativa e está sujeito a alterações no final do processo</value>
+  </data>
+  <data name="infotransporteinterno" xml:space="preserve">
+    <value>Caso Transporte Interno Brasil seja SIM o campo será obrigatório</value>
+  </data>
+  <data name="idSelecioneporto" xml:space="preserve">
+    <value>Selecione o Porto</value>
+  </data>
+  <data name="idbloquear" xml:space="preserve">
+    <value>Bloquear</value>
+  </data>
+  <data name="idbloquear_info" xml:space="preserve">
+    <value>Sistema não permite avançar caso a mensagem seja exibida.</value>
+  </data>
+  <data name="idEmissaodeCertificadodeorigem" xml:space="preserve">
+    <value>Emissão de Certificado de Origem</value>
+  </data>
+  <data name="idLocaldeDesembaraco" xml:space="preserve">
+    <value>Local de Desembaraço</value>
+  </data>
+  <data name="idOutrosvalores" xml:space="preserve">
+    <value>Outros valores</value>
+  </data>
+  <data name="idTotalporprocesso" xml:space="preserve">
+    <value>Total por processo</value>
+  </data>
+  <data name="idValorporprocessodeDesembaraco" xml:space="preserve">
+    <value>Valor por processo de Desembaraço</value>
+  </data>
+  <data name="idtotalcntrs20" xml:space="preserve">
+    <value>Total Cntrs 20</value>
+  </data>
+  <data name="idtotalcntrs40" xml:space="preserve">
+    <value>Total Cntrs 40</value>
+  </data>
+  <data name="idAdvalorem" xml:space="preserve">
+    <value>Ad-valorem</value>
+  </data>
+  <data name="idCapacidade" xml:space="preserve">
+    <value>Capacidade</value>
+  </data>
+  <data name="idTipodeCarreta" xml:space="preserve">
+    <value>Tipo de Carreta</value>
+  </data>
+  <data name="btncancelar" xml:space="preserve">
+    <value>Cancelar</value>
+  </data>
+  <data name="idcargainternacional" xml:space="preserve">
+    <value>CARGA INTERNACIONAL</value>
+  </data>
+  <data name="idconsultaveiculos" xml:space="preserve">
+    <value>Consulta de Veiculos</value>
+  </data>
+  <data name="btnadicionarmensagemselecionado" xml:space="preserve">
+    <value>Inclusão de Mesagens Para  Selecionados</value>
+  </data>
+  <data name="idCadastrodeAeroportos" xml:space="preserve">
+    <value>Cadastro de Aeroportos</value>
+  </data>
+  <data name="idCadastrodeMoedas" xml:space="preserve">
+    <value>Cadastro de Moedas</value>
+  </data>
+  <data name="idInclusaodeMesagens" xml:space="preserve">
+    <value>Inclusão de Mesagens</value>
+  </data>
+  <data name="idAcessoLicitacao" xml:space="preserve">
+    <value>Acesso a Licitação</value>
+  </data>
+  <data name="idagente" xml:space="preserve">
+    <value>Agente</value>
+  </data>
+  <data name="idcompra" xml:space="preserve">
+    <value>Compra</value>
+  </data>
+  <data name="idEspanhol" xml:space="preserve">
+    <value>Español</value>
+  </data>
+  <data name="ididioma" xml:space="preserve">
+    <value>Idioma</value>
+  </data>
+  <data name="idInformedonomedogrupo" xml:space="preserve">
+    <value>Informe o nome do grupo</value>
+  </data>
+  <data name="idListadetodososusuáriosCadastrados" xml:space="preserve">
+    <value>Lista de todos os usuários Cadastrados.</value>
+  </data>
+  <data name="idnivel" xml:space="preserve">
+    <value>Nivel</value>
+  </data>
+  <data name="idnivelacesso" xml:space="preserve">
+    <value>Nivel de Acesso</value>
+  </data>
+  <data name="idPaginasdeacesso" xml:space="preserve">
+    <value>Paginas de acesso</value>
+  </data>
+  <data name="idpermissoes" xml:space="preserve">
+    <value>Permissões</value>
+  </data>
+  <data name="idportugues" xml:space="preserve">
+    <value>Português</value>
+  </data>
+  <data name="idtipousuario" xml:space="preserve">
+    <value>Tipo de Usuário</value>
+  </data>
+  <data name="infousuarioacesso" xml:space="preserve">
+    <value>Acessa penas suas proprias propostas</value>
+  </data>
+  <data name="infousuarioacessoagente" xml:space="preserve">
+    <value>Acessa todas as propostas.</value>
+  </data>
+  <data name="infousuarios" xml:space="preserve">
+    <value>Informações de usuários</value>
+  </data>
+  <data name="infousuariosubtitle" xml:space="preserve">
+    <value>Clique no botão novo e preencha os campos a baixo para criar novo usuário.</value>
+  </data>
+  <data name="titlegrupo" xml:space="preserve">
+    <value>Cadastros de Grupo</value>
+  </data>
+  <data name="idbemvindo" xml:space="preserve">
+    <value>Seja bem-vindo</value>
+  </data>
+  <data name="infologin" xml:space="preserve">
+    <value>Área restrita entre com o seu nome de usuário e senha</value>
+  </data>
+  <data name="idao" xml:space="preserve">
+    <value>Ao</value>
+  </data>
+  <data name="idSelecioneaMensagem" xml:space="preserve">
+    <value>Selecione a Mensagem</value>
+  </data>
+  <data name="idcotacao" xml:space="preserve">
+    <value>Cotação</value>
+  </data>
+  <data name="idvenda" xml:space="preserve">
+    <value>Venda</value>
+  </data>
+  <data name="idm3" xml:space="preserve">
+    <value>W/M</value>
+  </data>
+  <data name="idQuantidade" xml:space="preserve">
+    <value>Quantidade</value>
+  </data>
+  <data name="idDespesas" xml:space="preserve">
+    <value>Despesas</value>
+  </data>
+  <data name="idLucrosEsperados" xml:space="preserve">
+    <value>Lucros Esperados</value>
+  </data>
+  <data name="idSeguro" xml:space="preserve">
+    <value>Seguro</value>
+  </data>
+  <data name="idTarifaMínima" xml:space="preserve">
+    <value>Tarifa Mínima</value>
+  </data>
+  <data name="idTarifaNegociada" xml:space="preserve">
+    <value>Tarifa Negociada</value>
+  </data>
+  <data name="idValordoPremio" xml:space="preserve">
+    <value>Valor do Prêmio</value>
+  </data>
+  <data name="idValortotalassegurado" xml:space="preserve">
+    <value>Valor total assegurado</value>
+  </data>
+  <data name="idenderecodestino" xml:space="preserve">
+    <value>Endereço de Destino</value>
+  </data>
+  <data name="idveiculos" xml:space="preserve">
+    <value>veiculos</value>
+  </data>
+  <data name="submenu_veiculos" xml:space="preserve">
+    <value>veiculos</value>
+  </data>
+  <data name="idrodoviaria" xml:space="preserve">
+    <value>Rodoviaria</value>
+  </data>
+  <data name="submenu_Rodoviaria" xml:space="preserve">
+    <value>Rodoviaria</value>
+  </data>
+  <data name="exportacaoaerea" xml:space="preserve">
+    <value>Exportação Aérea</value>
+  </data>
+  <data name="idembarqueseguro" xml:space="preserve">
+    <value>Embarque Seguros</value>
+  </data>
+  <data name="idexportacaoaduaneiro" xml:space="preserve">
+    <value>Exportação Aduaneiro</value>
+  </data>
+  <data name="idexportacaoaerea" xml:space="preserve">
+    <value>Importação Marítima</value>
+  </data>
+  <data name="idexportacaorodoviario" xml:space="preserve">
+    <value>Exportação Rodoviário</value>
+  </data>
+  <data name="idFreteAereo" xml:space="preserve">
+    <value>Frete Aéreo</value>
+  </data>
+  <data name="idFreteMarítimo" xml:space="preserve">
+    <value>Frete Marítimo</value>
+  </data>
+  <data name="idimportacaoaduaneiro" xml:space="preserve">
+    <value>Importação Aduaneiro</value>
+  </data>
+  <data name="idimportacaoaerea" xml:space="preserve">
+    <value>Importação Aérea</value>
+  </data>
+  <data name="idimportacaomaritima" xml:space="preserve">
+    <value>Importação Marítima</value>
+  </data>
+  <data name="idimportacaorodoviario" xml:space="preserve">
+    <value>Importação Rodoviário</value>
+  </data>
+  <data name="idPropostasExternas" xml:space="preserve">
+    <value>Propostas Externas</value>
+  </data>
+  <data name="idRodoviarioInternacional" xml:space="preserve">
+    <value>Rodoviário Internacional</value>
+  </data>
+  <data name="idRodoviárioNacional" xml:space="preserve">
+    <value>Rodoviário Nacional</value>
+  </data>
+  <data name="idSeguroNacional" xml:space="preserve">
+    <value>Seguro Nacional</value>
+  </data>
+  <data name="idclienteCorporativo" xml:space="preserve">
+    <value>Corporativos</value>
+  </data>
+  <data name="idclientemanutencao" xml:space="preserve">
+    <value>Manutenção</value>
+  </data>
+  <data name="idclientenovos" xml:space="preserve">
+    <value>Clientes Novos</value>
+  </data>
+  <data name="idnovosnegociosemclientesexistentes" xml:space="preserve">
+    <value>Novos negocios em (Clientes existentes)</value>
+  </data>
+  <data name="idexportacaomaritima" xml:space="preserve">
+    <value>Exportação Marítima</value>
+  </data>
+</root>

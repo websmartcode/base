@@ -1,0 +1,25 @@
+<smartcode>
+	<chave>
+		<nrseq>248</nrseq>
+		<servidor>191.252.205.174</servidor>
+		<usuario>usrpadaria</usuario>
+		<senha>CodeSmart@9898</senha>
+		<banco>dbpraliz_prod</banco>
+		<descricao>padaria dev</descricao>
+		<dtultimacopia> </dtultimacopia>
+		<provedor> </provedor>
+		<padraomysql>1</padraomysql>
+		<grupo>padaria postgress</grupo>
+		<ativo>1</ativo>
+		<usercad> </usercad>
+		<dtexclui> </dtexclui>
+		<userexclui> </userexclui>
+		<nrseqctrl> </nrseqctrl>
+		<dtcad> </dtcad>
+		<tipo> </tipo>
+		<nrseqhosp> </nrseqhosp>
+		<producao>1</producao>
+		<padrao>Postgres</padrao>
+		<nomeschema>public</nomeschema>
+	</chave>
+</smartcode>
